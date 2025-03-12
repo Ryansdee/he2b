@@ -1,0 +1,308 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Style de la navbar */
+.navbar {
+  background-color: #578FCA;
+  position: absolute;
+  width: 100% !important;
+  left: 0;
+  top: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar .logo {
+  display: block;
+  position: absolute;
+  border: 1px solid transparent;
+  padding: 10px;
+  height: auto;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar .auth-btn {
+  display: flex;
+  align-items: center; /* Centrer le contenu du bouton verticalement */
+  justify-content: center; /* Centrer le contenu horizontalement */
+  position: absolute;
+  background-color: transparent;
+  border-radius: 2rem;
+  padding: 8px 20px; /* Plus d'espace pour le bouton */
+  color: white;
+  text-decoration: none;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 89%; /* Positionner le bouton au centre horizontalement */
+  transform: translateX(-0%) translateY(-50%); /* Appliquer un décalage de -50% à la fois en X et en Y pour centrer parfaitement */
+  cursor: pointer;
+  transition: all 0.1s ease-in-out; /* Transition fluide */
+  width: 1vw;
+  height: auto;
+  border: 0.5px solid transparent;
+  overflow: hidden;
+}
+
+/* Style de l'icône dans le bouton */
+.navbar .auth-btn i {
+  left: 50%;
+  transform: translateX(-10%);
+}
+
+/* Effet de survol du bouton */
+.navbar .auth-btn:hover {
+  background-color: #3674B5; /* Couleur de fond plus claire au survol */
+  padding: 8px 20px; /* Augmenter légèrement le padding au survol pour agrandir le bouton */
+  transition: all 0.3s ease-in-out; /* Transition fluide au survol */
+  border: 0.5px solid black;
+  width: 10vw;
+}
+
+.navbar .auth-btn:hover p{
+  display: inline-block;
+  width: auto;
+  opacity: 1;
+}
+
+/* Effet sur le texte dans le bouton */
+.navbar .auth-btn p {
+  display: inline-block; /* Par défaut, le texte est caché */
+  margin: 0;
+  opacity: 0;
+  width: 0%;
+  padding-left: 10px;
+  transition: 1s ease-in !important;
+  transition-delay: 0.4s ease-in !important;
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+/* Style de base pour le dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown-content {
+  display: none; /* Caché par défaut */
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin-top: 13%;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Affichage du menu déroulant lorsque l'état dropdownOpen est true */
+.dropdown-content {
+  display: block;
+}
+
+
+/* Style du bouton logout */
+.logoutbtn {
+  display: inline-flex; /* Utilisation de flex pour un meilleur alignement des éléments */
+  align-items: center;  /* Centrage vertical de l'icône et du texte */
+  background-color: #0938ae; /* Rouge */
+  padding: 8px;
+  border-radius: 8rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+  /* Positionnement à droite de son conteneur parent */
+  position: absolute;
+  right: 1%; /* Met le bouton à l'extrémité droite du conteneur */
+  top: 50%;  /* Si vous souhaitez également le centrer verticalement */
+  transform: translateY(-50%);  /* Pour un centrage vertical parfait */
+  border: none;
+}
+
+
+/* Style de l'icône dans le bouton */
+.logoutbtn i {
+  font-size: large;
+  display: inline-block; /* Permet de centrer l'icône */
+  vertical-align: middle; /* Assure que l'icône est centrée verticalement par rapport au texte */
+}
+
+
+.logoutbtn:hover {
+  background-color: #991b1b; /* Rouge plus foncé */
+}
+
+/* Style de la page d'accueil */
+.home-container {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7fafc; /* Gris clair */
+}
+
+.home-card {
+  background-color: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+.home-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2d3748; /* Couleur texte */
+}
+
+.home-text {
+  color: #718096; /* Gris pour le texte */
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 1413px){
+  .navbar .auth-btn {
+    left: 89%;
+  }
+}
+
+@media screen and (max-width: 1284px){
+  .navbar .auth-btn {
+    left: 88%;
+  }
+}
+
+@media screen and (max-width: 1177px){
+  .navbar .auth-btn {
+    left: 87%;
+  }
+}
+
+@media screen and (max-width: 1086px){
+  .navbar .auth-btn {
+    left: 86%;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .navbar .auth-btn {
+    left: 85%;
+  }
+}
+
+@media screen and (max-width: 941px){
+  .navbar .auth-btn {
+    left: 84%;
+  }
+}
+
+@media screen and (max-width: 884px){
+  .navbar .auth-btn {
+    left: 83%;
+  }
+}
+
+@media screen and (max-width: 831px){
+  .navbar .auth-btn {
+    left: 82%;
+  }
+}
+
+@media screen and (max-width: 785px){
+  .navbar .auth-btn {
+    left: 81%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .navbar .auth-btn {
+    left: 80%;
+  }
+}

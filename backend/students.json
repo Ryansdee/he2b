@@ -1,0 +1,6246 @@
+[
+    {
+        "matricule": "59576",
+        "lastName": "Abad",
+        "firstName": "Jaramillo Yolanda",
+        "email": "aeaabaslama@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65114",
+        "lastName": "Abad",
+        "firstName": "Villanueva Oscar",
+        "email": "yaabidou@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "60038",
+        "lastName": "Abddel",
+        "firstName": "Rahman Maïssoun",
+        "email": "caadel@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66358",
+        "lastName": "Abdi",
+        "firstName": "Rahman Ilwad",
+        "email": "waadel@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66065",
+        "lastName": "Abdo",
+        "firstName": "Abbas Albushra",
+        "email": "yaadel@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64961",
+        "lastName": "Abou",
+        "firstName": "Taha Mohamed",
+        "email": "faamoutache@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "60556",
+        "lastName": "Aboubacar",
+        "firstName": "Gademi Mariam",
+        "email": "maarab@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "66183",
+        "lastName": "Aboutaharan",
+        "firstName": "Bouhrouch Anas",
+        "email": "haarbaji@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "58540",
+        "lastName": "Abu",
+        "firstName": "Nassar Wissam",
+        "email": "maarbioui@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61537",
+        "lastName": "Achounfack",
+        "firstName": "Mafo Loïc",
+        "email": "aaaziz@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64527",
+        "lastName": "Adama",
+        "firstName": "Gouro Ba",
+        "email": "maaziz@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "62247",
+        "lastName": "Addoune",
+        "firstName": "Mardi Omayma",
+        "email": "sababakre@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63442",
+        "lastName": "Adghir",
+        "firstName": "Ifkirin Rihab",
+        "email": "yababou@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62877",
+        "lastName": "Afkir",
+        "firstName": "Houbban Jassim",
+        "email": "yabad@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "61555",
+        "lastName": "Afquir",
+        "firstName": "Aroubi Mohammad",
+        "email": "oabad@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64580",
+        "lastName": "Aguirre",
+        "firstName": "Cernuda Florian",
+        "email": "oabakhour@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "57481",
+        "lastName": "Ahanda",
+        "firstName": "Assiga Etienne",
+        "email": "babalhi@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65088",
+        "lastName": "Ahmed",
+        "firstName": "Abdiqadir Muna",
+        "email": "iabalhossain@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "60736",
+        "lastName": "Ahmed",
+        "firstName": "Kahin Nesteho",
+        "email": "isabari@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "53809",
+        "lastName": "Ait",
+        "firstName": "Aziz Zakaria",
+        "email": "aabarkan@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "56581",
+        "lastName": "Ait",
+        "firstName": "Masaaou Nadir",
+        "email": "cabarkan@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65887",
+        "lastName": "Ait",
+        "firstName": "M'Hand Tarik",
+        "email": "mabbou@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "51473",
+        "lastName": "Ait",
+        "firstName": "Moulay Yassine",
+        "email": "iabboudi@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62491",
+        "lastName": "Aitane",
+        "firstName": "El Mostafa",
+        "email": "mabbruzzese@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "62740",
+        "lastName": "Al",
+        "firstName": "Abdellaouin Adam",
+        "email": "nabdallah@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "64558",
+        "lastName": "Al",
+        "firstName": "Ahmed Ahmed",
+        "email": "maabdel@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "64377",
+        "lastName": "Al",
+        "firstName": "Ali Tayma",
+        "email": "iabdellah@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "61849",
+        "lastName": "Al",
+        "firstName": "Bermejo Youssra",
+        "email": "mabdellaoui@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "61858",
+        "lastName": "Al",
+        "firstName": "Bozaidi Sabria",
+        "email": "habdellatif@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "57547",
+        "lastName": "Al",
+        "firstName": "jaouhari Sohail",
+        "email": "habdessadak@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66295",
+        "lastName": "Al",
+        "firstName": "Khalloufi Ayman",
+        "email": "iabdi@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64599",
+        "lastName": "Al",
+        "firstName": "Omari Ali",
+        "email": "aabdo@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64389",
+        "lastName": "Al",
+        "firstName": "Ouazen Hamdane",
+        "email": "aabdulmazjidova@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "64060",
+        "lastName": "Alambote",
+        "firstName": "Momene Artemans",
+        "email": "oabemonti@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "60588",
+        "lastName": "Alawad",
+        "firstName": "Albshara Wakim",
+        "email": "labichou@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "60755",
+        "lastName": "Albuquerque",
+        "firstName": "Ribeiro Tamara",
+        "email": "habid@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66143",
+        "lastName": "Alcaide",
+        "firstName": "Pozo Elena",
+        "email": "nabid@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64378",
+        "lastName": "Alexandre",
+        "firstName": "Martins Inês",
+        "email": "labidi@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "56862",
+        "lastName": "Alfa",
+        "firstName": "Esso Raymond",
+        "email": "sabissinia@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "61682",
+        "lastName": "Ali",
+        "firstName": "Hassan Mounira",
+        "email": "aabou@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65806",
+        "lastName": "Ali",
+        "firstName": "Said Aboubaker",
+        "email": "mabou@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "63207",
+        "lastName": "Allou",
+        "firstName": "Konan Serge",
+        "email": "maboubacar@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65795",
+        "lastName": "Almeida",
+        "firstName": "Amorim Andreia",
+        "email": "iabouchouar@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64529",
+        "lastName": "Alope",
+        "firstName": "Kossi Espoir",
+        "email": "aabouda@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66153",
+        "lastName": "Alvarez",
+        "firstName": "Fernandez Alex",
+        "email": "aaboutaharan@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "65829",
+        "lastName": "Am",
+        "firstName": "Allam Lamiae",
+        "email": "aabouyab@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "57148",
+        "lastName": "Amadou",
+        "firstName": "Moussa Fatima",
+        "email": "gabs@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "62944",
+        "lastName": "Amavi",
+        "firstName": "Junior Godwin",
+        "email": "wabunassar@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63354",
+        "lastName": "Amhih",
+        "firstName": "Moussa Akram",
+        "email": "saccaputo@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65844",
+        "lastName": "Ammel",
+        "firstName": "Mejda Ilias",
+        "email": "rachach@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "63865",
+        "lastName": "Amougui",
+        "firstName": "Moundjongue Emilie",
+        "email": "iachahboune@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "54714",
+        "lastName": "Anaaraim",
+        "firstName": "Machado Acsa",
+        "email": "aachak@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65184",
+        "lastName": "Andrade",
+        "firstName": "Duran Alice",
+        "email": "iachak@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "60613",
+        "lastName": "Antunes",
+        "firstName": "Cotta Leander",
+        "email": "bacharki@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "61727",
+        "lastName": "Antunes",
+        "firstName": "Martins Inês",
+        "email": "iachnaou@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66604",
+        "lastName": "Aoulad",
+        "firstName": "Layachi Wafa",
+        "email": "lachounfack@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64371",
+        "lastName": "Arellano",
+        "firstName": "Chaluisa Alexis",
+        "email": "dachtatou@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "60842",
+        "lastName": "Arias",
+        "firstName": "Jaramillo Dylan",
+        "email": "iachtatou@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "62754",
+        "lastName": "Arouna",
+        "firstName": "Mamoudou Fadil",
+        "email": "iackermans@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "60583",
+        "lastName": "Asmanis-De",
+        "firstName": "Schacht Rose",
+        "email": "aadahchour@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "61129",
+        "lastName": "Assonfack",
+        "firstName": "Marc Perkins",
+        "email": "fadama@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "66124",
+        "lastName": "Assongmo",
+        "firstName": "Nguefack Syntchiech",
+        "email": "gbadama@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65609",
+        "lastName": "Assou",
+        "firstName": "Darkaoui Ali",
+        "email": "dadams@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65506",
+        "lastName": "Atemkeng",
+        "firstName": "Djoudjeu Ingrid",
+        "email": "jaddaoui@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "64887",
+        "lastName": "Atrous",
+        "firstName": "Aouad Ayub",
+        "email": "daddou@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66478",
+        "lastName": "Avila",
+        "firstName": "Pulido Francisco-Manuel",
+        "email": "faddou@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "62661",
+        "lastName": "Ayala",
+        "firstName": "Trujillo Sarah",
+        "email": "oaddoune@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "56361",
+        "lastName": "Azarzar",
+        "firstName": "Zammouri Soukayna",
+        "email": "eadekanye@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63451",
+        "lastName": "Babe",
+        "firstName": "Buzake Jacob",
+        "email": "nadelou@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "61399",
+        "lastName": "Bader",
+        "firstName": "Maiz Ilias",
+        "email": "radghir@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66539",
+        "lastName": "Bah",
+        "firstName": "Alhady Mamadou",
+        "email": "sadib@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "59279",
+        "lastName": "Bah",
+        "firstName": "Alpha Oumar",
+        "email": "yadib@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "65416",
+        "lastName": "Bah",
+        "firstName": "Mamadou Billo",
+        "email": "sadmante@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66170",
+        "lastName": "Bakali",
+        "firstName": "Tahiri Kawtar",
+        "email": "ladouli@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "66602",
+        "lastName": "Bakwalu",
+        "firstName": "Kalenga Elvis",
+        "email": "cadriaens@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "64241",
+        "lastName": "Balde",
+        "firstName": "Mamadou Saliou",
+        "email": "dafangbedjee@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "58527",
+        "lastName": "Barcenilla",
+        "firstName": "Gonzalez Matilde",
+        "email": "nafkir@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "63918",
+        "lastName": "Barreira",
+        "firstName": "Fernandes Catarina",
+        "email": "jafkir@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "61185",
+        "lastName": "Bassagal",
+        "firstName": "Joseph Staines",
+        "email": "mafquir@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62114",
+        "lastName": "Bastos",
+        "firstName": "Pinto Jennifer",
+        "email": "dafrete@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63558",
+        "lastName": "Bebe",
+        "firstName": "Mpouli Charles",
+        "email": "hagan@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65766",
+        "lastName": "Begdouri",
+        "firstName": "Achkari Samia",
+        "email": "aagbemewo@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "62552",
+        "lastName": "Beia",
+        "firstName": "Tita Weliya",
+        "email": "hagdaci@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "66135",
+        "lastName": "Bel",
+        "firstName": "Hadj Abdelwahab",
+        "email": "dagezal@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62404",
+        "lastName": "Belarbi",
+        "firstName": "Boujamaaoui Insaf",
+        "email": "magharbi@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65892",
+        "lastName": "Belhacel",
+        "firstName": "Elias Julien",
+        "email": "ragnaber@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62371",
+        "lastName": "Belhadj",
+        "firstName": "Ahmed Soufian",
+        "email": "iagrar@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "57426",
+        "lastName": "Belhadj",
+        "firstName": "Sedlaoui Douae",
+        "email": "magrar@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64993",
+        "lastName": "Belmahi",
+        "firstName": "Bezrhoudi Ahmed",
+        "email": "faguirre@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63328",
+        "lastName": "Ben",
+        "firstName": "Abdallah Ouanes",
+        "email": "aagustono@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66088",
+        "lastName": "Ben",
+        "firstName": "Abdelkader Chahîd",
+        "email": "rahallal@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64736",
+        "lastName": "Ben",
+        "firstName": "Abdelkader Hamza",
+        "email": "mahamjik@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "61644",
+        "lastName": "Ben",
+        "firstName": "Abdelkader Iman",
+        "email": "wahamjik@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "57512",
+        "lastName": "Ben",
+        "firstName": "Abdelmoumen Najim",
+        "email": "eahanda@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "66404",
+        "lastName": "Ben",
+        "firstName": "Ahmed Mohamed",
+        "email": "maharag@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "63862",
+        "lastName": "Ben",
+        "firstName": "Ali Hussein",
+        "email": "zahbeddou@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "60895",
+        "lastName": "Ben",
+        "firstName": "Ali Naïm",
+        "email": "rahdach@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "61470",
+        "lastName": "Ben",
+        "firstName": "Ali Nour",
+        "email": "sahdi@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "60283",
+        "lastName": "Ben",
+        "firstName": "Ali Salim",
+        "email": "yaherdan@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "64427",
+        "lastName": "Ben",
+        "firstName": "Allal Houda",
+        "email": "aheahmed@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66136",
+        "lastName": "Ben",
+        "firstName": "Amar Aymane",
+        "email": "mahmed@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "64673",
+        "lastName": "Ben",
+        "firstName": "Amar Moncif",
+        "email": "nahmed@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66069",
+        "lastName": "Ben",
+        "firstName": "Amar Naila",
+        "email": "hahmidouch@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66543",
+        "lastName": "Ben",
+        "firstName": "Aouicha Donia",
+        "email": "aahras@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "66318",
+        "lastName": "Ben",
+        "firstName": "Aouicha Hiba",
+        "email": "yaissa@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "54449",
+        "lastName": "Ben",
+        "firstName": "Atra Amyn",
+        "email": "aaissaoui@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "65930",
+        "lastName": "Ben",
+        "firstName": "Azzouz Manel",
+        "email": "saissaoui@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "58429",
+        "lastName": "Ben",
+        "firstName": "Baiad Ilias",
+        "email": "baissatou@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63649",
+        "lastName": "Ben",
+        "firstName": "Bouhout Ines",
+        "email": "aaissi@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "61036",
+        "lastName": "Ben",
+        "firstName": "Chaib Chirine",
+        "email": "zaitaziz@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65459",
+        "lastName": "Ben",
+        "firstName": "Chaib Rayan",
+        "email": "naitmasaaou@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63304",
+        "lastName": "Ben",
+        "firstName": "Cheikh Adam",
+        "email": "taitmhand@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "63793",
+        "lastName": "Ben",
+        "firstName": "Chikh Marwane",
+        "email": "yaitmoulay@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "65071",
+        "lastName": "Ben",
+        "firstName": "Dhia Inès",
+        "email": "emaitane@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64659",
+        "lastName": "Ben",
+        "firstName": "Haddej Malek",
+        "email": "aaivodji@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "59367",
+        "lastName": "Ben",
+        "firstName": "Hamou Walid",
+        "email": "iajana@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65915",
+        "lastName": "Ben",
+        "firstName": "Hassan Sirine",
+        "email": "dajarray@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "63322",
+        "lastName": "Ben",
+        "firstName": "Issa Oumêma",
+        "email": "majebar@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61852",
+        "lastName": "Ben",
+        "firstName": "Jattou Rayan",
+        "email": "makandouch@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "59417",
+        "lastName": "Ben",
+        "firstName": "Kahla Moez",
+        "email": "cakanni@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66579",
+        "lastName": "Ben",
+        "firstName": "Kamsal Douaa",
+        "email": "makaraouch@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65713",
+        "lastName": "Ben",
+        "firstName": "Messaoud Oussama",
+        "email": "rakel@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63788",
+        "lastName": "Ben",
+        "firstName": "Mkaddem Salma",
+        "email": "sakel@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "60656",
+        "lastName": "Ben",
+        "firstName": "Mustapha Victoria",
+        "email": "makhazzan@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "60629",
+        "lastName": "Ben",
+        "firstName": "Otmane Kawtar",
+        "email": "nakhrif@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "62528",
+        "lastName": "Ben",
+        "firstName": "Safia Ali",
+        "email": "nakhtar@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64710",
+        "lastName": "Ben",
+        "firstName": "Sennah Alae",
+        "email": "aakin@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "61022",
+        "lastName": "Ben",
+        "firstName": "Slaimane Karim",
+        "email": "rakkay@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62876",
+        "lastName": "Ben",
+        "firstName": "Tegherouit Sabri",
+        "email": "aakkoubi@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62267",
+        "lastName": "Ben",
+        "firstName": "Yahya Sirine",
+        "email": "oakkouh@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "58249",
+        "lastName": "Ben",
+        "firstName": "Youssef Mustapha",
+        "email": "adakoudad@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "55750",
+        "lastName": "Benhalima",
+        "firstName": "Touati Yousra",
+        "email": "aakoudad@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "61349",
+        "lastName": "Berges",
+        "firstName": "Rial Julien",
+        "email": "wakrouh@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62615",
+        "lastName": "Berouhou",
+        "firstName": "Laaroussi Adil",
+        "email": "oaksoy@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66188",
+        "lastName": "Berrouba",
+        "firstName": "Mejdoubi Yassine",
+        "email": "bakturk@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64448",
+        "lastName": "Bey",
+        "firstName": "Temsamani Ibtissam",
+        "email": "aalabdellaouin@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "56914",
+        "lastName": "Beza",
+        "firstName": "Numukobwa Nancy",
+        "email": "aalahmed@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64270",
+        "lastName": "Bikoko",
+        "firstName": "Duga Virginia",
+        "email": "talali@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65577",
+        "lastName": "Bisolokele",
+        "firstName": "Bakaka Gracelevy",
+        "email": "yalbermejo@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66407",
+        "lastName": "Bizimana",
+        "firstName": "Christ Lady",
+        "email": "salbozaidi@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66568",
+        "lastName": "Boen",
+        "firstName": "Eléonore Marie",
+        "email": "saljaouhari@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "61981",
+        "lastName": "Bokeli",
+        "firstName": "Iza Fanny",
+        "email": "aalkhabbaz@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "64101",
+        "lastName": "Bokuma",
+        "firstName": "Botola Belly",
+        "email": "kalkhabbaz@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63316",
+        "lastName": "Bones",
+        "firstName": "Guerrero Evelin",
+        "email": "aalkhalloufi@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "58236",
+        "lastName": "Bonilla",
+        "firstName": "Botelgier Noam",
+        "email": "aalomari@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "61992",
+        "lastName": "Bononge",
+        "firstName": "Bolumbu Myléne",
+        "email": "halouazen@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65659",
+        "lastName": "Borbolla",
+        "firstName": "Borbolla Lucia",
+        "email": "aalambote@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "58829",
+        "lastName": "Boualala",
+        "firstName": "Zaouaghi Hamza",
+        "email": "saalami@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65774",
+        "lastName": "Boubker",
+        "firstName": "Zhar Alae",
+        "email": "talami@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "56424",
+        "lastName": "Boufouara",
+        "firstName": "Hommada Aimad",
+        "email": "talan@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66349",
+        "lastName": "Bouhout",
+        "firstName": "Buhalate Ayoub",
+        "email": "aalatchev@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "61830",
+        "lastName": "Bouhriz",
+        "firstName": "Daidj Ahmed",
+        "email": "walawad@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "61464",
+        "lastName": "Boukricha",
+        "firstName": "Majdoul Chaima",
+        "email": "aalawadi@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65894",
+        "lastName": "Boumohcine",
+        "firstName": "Fahsi Ahmed",
+        "email": "aalban@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "64614",
+        "lastName": "Bouobda",
+        "firstName": "Kenne Stephane",
+        "email": "salbertyn@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "61148",
+        "lastName": "Boutarbouch",
+        "firstName": "Bakari Ahmad",
+        "email": "tpalbuquerque@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "58443",
+        "lastName": "Brandao",
+        "firstName": "Figueiras Léa",
+        "email": "calcabir@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66599",
+        "lastName": "Brighich",
+        "firstName": "Azadane Basma",
+        "email": "ealcaide@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "61930",
+        "lastName": "Brimou",
+        "firstName": "Bghiel Kawthar",
+        "email": "lalcaluzac@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "63680",
+        "lastName": "Buifruri",
+        "firstName": "Kaya Sakina",
+        "email": "yalenaya@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66368",
+        "lastName": "Bulaya",
+        "firstName": "Komba Lynne",
+        "email": "ialexandre@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61872",
+        "lastName": "Bwana",
+        "firstName": "Kitoko Joseph",
+        "email": "eralfa@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "61943",
+        "lastName": "Bytshy",
+        "firstName": "Lualua Dorcas",
+        "email": "aalfahad@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "55374",
+        "lastName": "Cabezas",
+        "firstName": "Cevallos Sharon",
+        "email": "malguero@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "60670",
+        "lastName": "Campos",
+        "firstName": "Craveiro Ricardo",
+        "email": "ealhashimi@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "59737",
+        "lastName": "Cano",
+        "firstName": "Robles Marco",
+        "email": "yalhendawi@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62647",
+        "lastName": "Carrera",
+        "firstName": "Silvera Léna",
+        "email": "cali@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "60745",
+        "lastName": "Churra",
+        "firstName": "Juromito Raquel",
+        "email": "shali@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65879",
+        "lastName": "Cise",
+        "firstName": "Buloaleh Ahmed",
+        "email": "malihassan@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "63372",
+        "lastName": "Coaquira",
+        "firstName": "Flores Jhimmy",
+        "email": "aalisaid@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "62522",
+        "lastName": "Costa",
+        "firstName": "Vaz Isabel",
+        "email": "balime@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66465",
+        "lastName": "Coulibaly",
+        "firstName": "Mariam Hombo",
+        "email": "nalioui@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "64525",
+        "lastName": "Cunha",
+        "firstName": "Ferreira Mariana",
+        "email": "yalioui@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66506",
+        "lastName": "Da",
+        "firstName": "Costa Sanyam",
+        "email": "ohalissina@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "58133",
+        "lastName": "Da",
+        "firstName": "Cruz Aurélien",
+        "email": "salitem@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "66287",
+        "lastName": "Daali",
+        "firstName": "Abder Rahmane",
+        "email": "aalj@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64343",
+        "lastName": "Damgang",
+        "firstName": "Florine Sofia",
+        "email": "yalkhteb@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "64567",
+        "lastName": "Das",
+        "firstName": "Neves Lucie",
+        "email": "aallachi@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64541",
+        "lastName": "De",
+        "firstName": "Backer Titiana",
+        "email": "mallachi@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64502",
+        "lastName": "De",
+        "firstName": "Becker Alyssia",
+        "email": "iallaoui@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "60677",
+        "lastName": "De",
+        "firstName": "Beys Hugo",
+        "email": "mallaoui@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63028",
+        "lastName": "De",
+        "firstName": "Biolley Corentin",
+        "email": "tallegre@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63069",
+        "lastName": "De",
+        "firstName": "Boer Corentin",
+        "email": "lallenspach@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "60660",
+        "lastName": "De",
+        "firstName": "Breuck Antonin",
+        "email": "ksallou@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "52606",
+        "lastName": "De",
+        "firstName": "Bueger Maxime",
+        "email": "kalloubi@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "64561",
+        "lastName": "De",
+        "firstName": "Busschere Alexandre",
+        "email": "aalmeida@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "51289",
+        "lastName": "De",
+        "firstName": "Carvalho Félix",
+        "email": "aalmokadem@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "57954",
+        "lastName": "De",
+        "firstName": "Cat Méganne",
+        "email": "ealope@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "65168",
+        "lastName": "De",
+        "firstName": "Clerck Léa",
+        "email": "salouache@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62476",
+        "lastName": "De",
+        "firstName": "Clercq Alexandre",
+        "email": "salrashid@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62677",
+        "lastName": "De",
+        "firstName": "Clercq Jérôme",
+        "email": "ralshurafa@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "59215",
+        "lastName": "De",
+        "firstName": "Clercq Tom",
+        "email": "aalvarez@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "54860",
+        "lastName": "De",
+        "firstName": "Cock Loïc",
+        "email": "malysharaf@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66338",
+        "lastName": "De",
+        "firstName": "Coen Christopher",
+        "email": "lamallam@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65487",
+        "lastName": "De",
+        "firstName": "Cooman Cassie",
+        "email": "samaadachou@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62234",
+        "lastName": "De",
+        "firstName": "Coster Shirel",
+        "email": "mamaarad@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62318",
+        "lastName": "De",
+        "firstName": "Doncker Laure",
+        "email": "aamadou@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "58650",
+        "lastName": "De",
+        "firstName": "Dyn Ilona",
+        "email": "famadou@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "59056",
+        "lastName": "De",
+        "firstName": "Filippo Luana",
+        "email": "tamahjour@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "65904",
+        "lastName": "De",
+        "firstName": "Gelas Emilie",
+        "email": "samairia@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "60465",
+        "lastName": "De",
+        "firstName": "Gheldre Maurice",
+        "email": "daman@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63962",
+        "lastName": "De",
+        "firstName": "Gieter Logan",
+        "email": "jgamavi@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "64612",
+        "lastName": "De",
+        "firstName": "Greef Benoit",
+        "email": "jambert@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "64617",
+        "lastName": "De",
+        "firstName": "Groef Roman",
+        "email": "zamechmech@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "64619",
+        "lastName": "De",
+        "firstName": "Groodt Dimitri",
+        "email": "namenchar@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "65728",
+        "lastName": "De",
+        "firstName": "Hertogh Quentin",
+        "email": "rameye@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "65979",
+        "lastName": "De",
+        "firstName": "Hoorne Anthony",
+        "email": "oameziane@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "63150",
+        "lastName": "de",
+        "firstName": "Lame Nele",
+        "email": "sameziane@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65472",
+        "lastName": "De",
+        "firstName": "Longrée Laureline",
+        "email": "mamghar@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "55572",
+        "lastName": "De",
+        "firstName": "Longueville Laura",
+        "email": "wamghar@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65130",
+        "lastName": "de",
+        "firstName": "Looz-Corswarem Alice",
+        "email": "aamhih@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62611",
+        "lastName": "De",
+        "firstName": "Luca Fanny",
+        "email": "aeiamin@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65464",
+        "lastName": "De",
+        "firstName": "Mesmaeker Sasha",
+        "email": "iamine@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65343",
+        "lastName": "De",
+        "firstName": "Mets Isabel",
+        "email": "yamine@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "62335",
+        "lastName": "De",
+        "firstName": "Muer Steven",
+        "email": "pamissiafansala@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "64748",
+        "lastName": "De",
+        "firstName": "Mulder Juliette",
+        "email": "iamlal@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "64311",
+        "lastName": "De",
+        "firstName": "Paepe Jérôme",
+        "email": "iammari@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "54325",
+        "lastName": "De",
+        "firstName": "Pauw Leïla",
+        "email": "iammel@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "58779",
+        "lastName": "De",
+        "firstName": "Permentier Victoria",
+        "email": "rhamnir@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62663",
+        "lastName": "De",
+        "firstName": "Planter Baptiste",
+        "email": "eamougui@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "64097",
+        "lastName": "De",
+        "firstName": "Reuck Juliette",
+        "email": "zamrah@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66540",
+        "lastName": "De",
+        "firstName": "Reymaeker Cyril",
+        "email": "mamrani@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "60079",
+        "lastName": "De",
+        "firstName": "Ridder Mégane",
+        "email": "iamraoui@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64785",
+        "lastName": "De",
+        "firstName": "Ro Colleen",
+        "email": "mamrhar@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "64733",
+        "lastName": "De",
+        "firstName": "Rom Romain",
+        "email": "aamri@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "58581",
+        "lastName": "De",
+        "firstName": "Roy Julien",
+        "email": "famri@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65119",
+        "lastName": "De",
+        "firstName": "Sauvage Hadrien",
+        "email": "mamri@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "56403",
+        "lastName": "De",
+        "firstName": "Smet Marine",
+        "email": "namry@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "59465",
+        "lastName": "De",
+        "firstName": "Sousa Sophie",
+        "email": "ramziu@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "60533",
+        "lastName": "De",
+        "firstName": "Staercke Romane",
+        "email": "amachado@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61690",
+        "lastName": "De",
+        "firstName": "Terwangne Lula",
+        "email": "wanciaux@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "66012",
+        "lastName": "de",
+        "firstName": "Terwangne Célia",
+        "email": "mandonovska@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "63870",
+        "lastName": "De",
+        "firstName": "Volder Lauryne",
+        "email": "aandrade@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "59364",
+        "lastName": "De",
+        "firstName": "Wael Alexis",
+        "email": "landre@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65568",
+        "lastName": "De",
+        "firstName": "Waele Lisa",
+        "email": "maandre@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "53964",
+        "lastName": "De",
+        "firstName": "Wever Marie-Eglantine",
+        "email": "sandre@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "61243",
+        "lastName": "De",
+        "firstName": "Wilde Julien",
+        "email": "landreoletti@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "65489",
+        "lastName": "De",
+        "firstName": "Windt Scarlett",
+        "email": "landreux@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "65782",
+        "lastName": "De",
+        "firstName": "Witte Aymeline",
+        "email": "sangelova@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "62364",
+        "lastName": "Deffeu",
+        "firstName": "Fogaing Elean",
+        "email": "langenault@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "64045",
+        "lastName": "Deffoh",
+        "firstName": "Fotsing Dylan",
+        "email": "bangers@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64444",
+        "lastName": "Dela",
+        "firstName": "Blancherie Charles",
+        "email": "mangielczyk@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63850",
+        "lastName": "Delph",
+        "firstName": "Rivera Diego",
+        "email": "jangoletta@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "64925",
+        "lastName": "Delph",
+        "firstName": "Rivera Lucas",
+        "email": "yaniche@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "60375",
+        "lastName": "Di",
+        "firstName": "Battista Noah",
+        "email": "tanjouf@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61743",
+        "lastName": "Di",
+        "firstName": "Ceglie Sarah",
+        "email": "aankri@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65338",
+        "lastName": "Di",
+        "firstName": "Domizio Martina",
+        "email": "mannia@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "60100",
+        "lastName": "Di",
+        "firstName": "Paolo Alexane",
+        "email": "ransel@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63422",
+        "lastName": "Di",
+        "firstName": "Pauli Simon",
+        "email": "cansong@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62263",
+        "lastName": "Di",
+        "firstName": "Presa Vincenzo",
+        "email": "cantar@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65292",
+        "lastName": "Di",
+        "firstName": "Santo Alessandro",
+        "email": "tantezana@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "60456",
+        "lastName": "Di",
+        "firstName": "Venti Davide",
+        "email": "aanthoine@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "53880",
+        "lastName": "Dia",
+        "firstName": "Charles Kalidou",
+        "email": "lanthoine@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "63635",
+        "lastName": "Diadia",
+        "firstName": "Mpwakes Flavien-André",
+        "email": "cantoine@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63955",
+        "lastName": "Diallo",
+        "firstName": "Adia Mominatu",
+        "email": "iantoine@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "63671",
+        "lastName": "Diallo",
+        "firstName": "Fatoumata Binta",
+        "email": "lanton@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "56096",
+        "lastName": "Diallo",
+        "firstName": "Mamadou Hady",
+        "email": "cantonescu@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66320",
+        "lastName": "Dialoko",
+        "firstName": "Nguefack Michaelle",
+        "email": "lantunes@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "58095",
+        "lastName": "Diaz",
+        "firstName": "Garcia Alexandra",
+        "email": "iantunes@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63706",
+        "lastName": "Diba",
+        "firstName": "Mwamba Bélinda",
+        "email": "aaouad@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65981",
+        "lastName": "Diba",
+        "firstName": "Mwamba Noelly",
+        "email": "saouameur@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66034",
+        "lastName": "Dihandjo",
+        "firstName": "Okitekemba Naomie",
+        "email": "iaouini@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65692",
+        "lastName": "Diker",
+        "firstName": "El Hassan",
+        "email": "waaoulad@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65097",
+        "lastName": "Dimoke",
+        "firstName": "Tahata Christela",
+        "email": "aaoulad@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63290",
+        "lastName": "Ditat",
+        "firstName": "Prestige Yvanna",
+        "email": "haouragh@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65649",
+        "lastName": "Diyambuka",
+        "firstName": "Mbakanu Hermès",
+        "email": "waoussar@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "66226",
+        "lastName": "Djoumo",
+        "firstName": "Ngatchou Georges",
+        "email": "kapetovi@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "58863",
+        "lastName": "Domingues",
+        "firstName": "Goncalves Lidia",
+        "email": "haplencourt@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "65968",
+        "lastName": "Donfack",
+        "firstName": "Dongmo Evrad",
+        "email": "eappoloni@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "66397",
+        "lastName": "Donoso",
+        "firstName": "Gibert Viktor",
+        "email": "sapro@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63266",
+        "lastName": "Dorati",
+        "firstName": "Anna Lili",
+        "email": "aaqziz@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "61244",
+        "lastName": "Doria",
+        "firstName": "Tilleux Tania",
+        "email": "zarbaoui@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66389",
+        "lastName": "Doyuk",
+        "firstName": "Ahsen Ahsen",
+        "email": "marbau@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "56892",
+        "lastName": "Dridi",
+        "firstName": "lojo Anais",
+        "email": "harchich@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "60466",
+        "lastName": "Droesbeke",
+        "firstName": "Emma Qi",
+        "email": "warektout@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "59068",
+        "lastName": "du",
+        "firstName": "Quesne Aldric",
+        "email": "aarellano@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "65570",
+        "lastName": "du",
+        "firstName": "Quesne Maëlle",
+        "email": "karena@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "64320",
+        "lastName": "Duriau",
+        "firstName": "Dartevelle Babette",
+        "email": "larena@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "54348",
+        "lastName": "Ehadi",
+        "firstName": "Weta Louise",
+        "email": "narena@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "65785",
+        "lastName": "El",
+        "firstName": "Aakchioui Badr",
+        "email": "narfaoui@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "60472",
+        "lastName": "El",
+        "firstName": "Aalama Ghizlane",
+        "email": "darias@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "62994",
+        "lastName": "El",
+        "firstName": "Aaoch Ayman",
+        "email": "iarien@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "65674",
+        "lastName": "El",
+        "firstName": "Aazmani Rayane",
+        "email": "ararif@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62367",
+        "lastName": "El",
+        "firstName": "Abboudi Wassim",
+        "email": "sarile@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "62407",
+        "lastName": "El",
+        "firstName": "Abdi Yasmina",
+        "email": "rarkiza@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "61777",
+        "lastName": "El",
+        "firstName": "Aboudi Imane",
+        "email": "garnaud@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "58430",
+        "lastName": "El",
+        "firstName": "Abouti Abdelaziz",
+        "email": "sarnaud@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "63346",
+        "lastName": "El",
+        "firstName": "Abouti Hamza",
+        "email": "marnauts@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "64124",
+        "lastName": "El",
+        "firstName": "Achraki Houda",
+        "email": "larnould@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "59868",
+        "lastName": "El",
+        "firstName": "Adek Loubna",
+        "email": "tarnould@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "60396",
+        "lastName": "El",
+        "firstName": "Adel Hamza",
+        "email": "farouna@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66341",
+        "lastName": "El",
+        "firstName": "Affani Maysâ'",
+        "email": "zarraoui@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66477",
+        "lastName": "El",
+        "firstName": "Ahmadi Océane",
+        "email": "marte@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63499",
+        "lastName": "El",
+        "firstName": "Ahmidi Abdessalam",
+        "email": "aartene@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62351",
+        "lastName": "El",
+        "firstName": "Aichi Chaimae",
+        "email": "marvanitis@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "62593",
+        "lastName": "El",
+        "firstName": "Aissati Hanan",
+        "email": "masani@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65250",
+        "lastName": "El",
+        "firstName": "Ajani Sami",
+        "email": "cashley@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "56398",
+        "lastName": "El",
+        "firstName": "Alami Miryam",
+        "email": "maslam@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "60344",
+        "lastName": "El",
+        "firstName": "Alaoui Naoufal",
+        "email": "easlan@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62316",
+        "lastName": "El",
+        "firstName": "Ali Aya",
+        "email": "taslan@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62432",
+        "lastName": "El",
+        "firstName": "Ali Fatima",
+        "email": "rasmanisde@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "62949",
+        "lastName": "El",
+        "firstName": "Aloui Jihad",
+        "email": "aasnouss@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65246",
+        "lastName": "El",
+        "firstName": "Ammari Soufiane",
+        "email": "massakkali@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65375",
+        "lastName": "El",
+        "firstName": "Amrani Mohammed",
+        "email": "eassaouci@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "65651",
+        "lastName": "El",
+        "firstName": "Amraoui Sarah",
+        "email": "yasseddik@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63303",
+        "lastName": "El",
+        "firstName": "Amri Carima",
+        "email": "massee@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "65099",
+        "lastName": "El",
+        "firstName": "Amri Taha",
+        "email": "zassef@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "58506",
+        "lastName": "El",
+        "firstName": "Aroud Ayoub",
+        "email": "sassellalou@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "59987",
+        "lastName": "El",
+        "firstName": "Asri Chaïmae",
+        "email": "yasshidi@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64759",
+        "lastName": "El",
+        "firstName": "Asri Ibtissam",
+        "email": "aassila@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "64953",
+        "lastName": "El",
+        "firstName": "Atrach Mohamed",
+        "email": "mpassonfack@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "59416",
+        "lastName": "El",
+        "firstName": "Ayadi Ayoub",
+        "email": "sassongmo@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "66107",
+        "lastName": "El",
+        "firstName": "Azzimani Ridouan",
+        "email": "nassou@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "63770",
+        "lastName": "El",
+        "firstName": "Azzouzi Safae",
+        "email": "wassou@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "64933",
+        "lastName": "El",
+        "firstName": "Baghdadi Nisrine",
+        "email": "adarkaoui@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "59284",
+        "lastName": "El",
+        "firstName": "Bakouhi Soraya",
+        "email": "cassoufi@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65648",
+        "lastName": "El",
+        "firstName": "Banchkroudi Faiza",
+        "email": "iatemkeng@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "65300",
+        "lastName": "El",
+        "firstName": "Banna Soufiane",
+        "email": "fatia@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66023",
+        "lastName": "El",
+        "firstName": "Bardouni Insaf",
+        "email": "matia@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65339",
+        "lastName": "El",
+        "firstName": "Barraghi Samia",
+        "email": "aatrous@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62606",
+        "lastName": "El",
+        "firstName": "Bechir Hawa",
+        "email": "sattailia@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "61118",
+        "lastName": "El",
+        "firstName": "Bidadi Soumaya",
+        "email": "aattalibi@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66534",
+        "lastName": "El",
+        "firstName": "Bidari Younes",
+        "email": "zattalibi@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64693",
+        "lastName": "El",
+        "firstName": "Bouazzati Mohamed-Zinedine",
+        "email": "mattaoui@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66441",
+        "lastName": "El",
+        "firstName": "Bouchaouny Nada",
+        "email": "datwan@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63831",
+        "lastName": "El",
+        "firstName": "Bouchtili Soukaïna",
+        "email": "raubaret@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "65764",
+        "lastName": "El",
+        "firstName": "Boudaoudi Sârah",
+        "email": "aaube@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63464",
+        "lastName": "El",
+        "firstName": "Boudouhi Salma",
+        "email": "paubois@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "65784",
+        "lastName": "El",
+        "firstName": "Bouharouti Yasmine",
+        "email": "aaugey@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63055",
+        "lastName": "El",
+        "firstName": "Boujdaini Amin",
+        "email": "kaugustyniak@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61823",
+        "lastName": "El",
+        "firstName": "Boujdaini Marouane",
+        "email": "pauquier@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "62914",
+        "lastName": "El",
+        "firstName": "Boustati Emad",
+        "email": "yauragh@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66161",
+        "lastName": "El",
+        "firstName": "Boutzakhti Mariam",
+        "email": "causloos@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "66502",
+        "lastName": "El",
+        "firstName": "Bouzakhi Rania",
+        "email": "caussems@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "63844",
+        "lastName": "El",
+        "firstName": "Bouzakhti Mariam",
+        "email": "eauthier@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "58088",
+        "lastName": "El",
+        "firstName": "Charef Adam",
+        "email": "lavanzo@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65761",
+        "lastName": "El",
+        "firstName": "Fahsi Mounir",
+        "email": "fmavila@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "65400",
+        "lastName": "El",
+        "firstName": "Fakiri Mohamed",
+        "email": "mavoiron@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63554",
+        "lastName": "El",
+        "firstName": "Gazal Widad",
+        "email": "aayachi@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64994",
+        "lastName": "El",
+        "firstName": "Gazzani Bilal",
+        "email": "mayad@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "64291",
+        "lastName": "El",
+        "firstName": "Gazzani Hanane",
+        "email": "jayad@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62842",
+        "lastName": "El",
+        "firstName": "Ghajji Chahid",
+        "email": "sayala@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "63351",
+        "lastName": "El",
+        "firstName": "Gharnati Ayoub",
+        "email": "baydogan@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "66390",
+        "lastName": "El",
+        "firstName": "Ghorfi Youssef",
+        "email": "bayguzer@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "61800",
+        "lastName": "El",
+        "firstName": "Goul Douha",
+        "email": "saaymard@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "57097",
+        "lastName": "El",
+        "firstName": "Habsati Ayoub",
+        "email": "kaynaci@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "59275",
+        "lastName": "El",
+        "firstName": "Hachmi Imrane",
+        "email": "sayoub@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62090",
+        "lastName": "El",
+        "firstName": "Haddad Mariem",
+        "email": "aayyad@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64554",
+        "lastName": "El",
+        "firstName": "Haddad Othman",
+        "email": "aayyati@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64962",
+        "lastName": "El",
+        "firstName": "Haibouji Outman",
+        "email": "hazahaf@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "61176",
+        "lastName": "El",
+        "firstName": "Haili Nisrin",
+        "email": "msazahaf@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "56168",
+        "lastName": "El",
+        "firstName": "Haitamy Oussama",
+        "email": "sazahaf@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64973",
+        "lastName": "El",
+        "firstName": "Hajioui Oumayma",
+        "email": "kazaouzi@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64464",
+        "lastName": "El",
+        "firstName": "Hajjami Ilias",
+        "email": "sazarioh@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "66072",
+        "lastName": "El",
+        "firstName": "Hajoui Fatima",
+        "email": "hazarkan@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62821",
+        "lastName": "El",
+        "firstName": "Hajouji Inès",
+        "email": "sazarzar@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63374",
+        "lastName": "El",
+        "firstName": "Hajui Nassira",
+        "email": "sazbair@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "66131",
+        "lastName": "El",
+        "firstName": "Hamdi Walid",
+        "email": "asazdad@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65094",
+        "lastName": "El",
+        "firstName": "Hamel Marwan",
+        "email": "fazdad@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "56200",
+        "lastName": "El",
+        "firstName": "Hammouchi Adil",
+        "email": "jazdoud@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "61680",
+        "lastName": "El",
+        "firstName": "Hammouchi Mohamed",
+        "email": "sazhari@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "62214",
+        "lastName": "El",
+        "firstName": "Hammouti Yousra",
+        "email": "kaziz@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66391",
+        "lastName": "El",
+        "firstName": "Hamouti Anas",
+        "email": "maziza@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66247",
+        "lastName": "El",
+        "firstName": "Hamri Hamza",
+        "email": "sazizi@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64742",
+        "lastName": "El",
+        "firstName": "Haouad Ilyass",
+        "email": "mazmat@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65409",
+        "lastName": "El",
+        "firstName": "Haouari Sayah",
+        "email": "iazoioui@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66217",
+        "lastName": "El",
+        "firstName": "Harchi Walid",
+        "email": "nazouagh@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "56682",
+        "lastName": "El",
+        "firstName": "Harraoui Younes",
+        "email": "oazouaoui@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "60177",
+        "lastName": "El",
+        "firstName": "Harrasi Jawad",
+        "email": "mazougaghe@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65182",
+        "lastName": "El",
+        "firstName": "Hasnaoui Yasmina",
+        "email": "abazzouz@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "61610",
+        "lastName": "El",
+        "firstName": "Hassouni Souhaib",
+        "email": "aazzouz@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66111",
+        "lastName": "El",
+        "firstName": "Hattachi Adam",
+        "email": "fazzouz@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "62402",
+        "lastName": "El",
+        "firstName": "hichou Djibril",
+        "email": "maazzouz@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62506",
+        "lastName": "El",
+        "firstName": "Hmami Inssaf",
+        "email": "mazzouz@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "60507",
+        "lastName": "El",
+        "firstName": "Homaidi Aymane",
+        "email": "oazzouzine@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62273",
+        "lastName": "El",
+        "firstName": "Jarroudi Manal",
+        "email": "kba@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65367",
+        "lastName": "El",
+        "firstName": "Jattari Aymane",
+        "email": "wbaadi@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "61474",
+        "lastName": "El",
+        "firstName": "Jattari Ayoub",
+        "email": "zbaadi@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "57829",
+        "lastName": "El",
+        "firstName": "Jeddaoui Ilyess",
+        "email": "jbabe@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65363",
+        "lastName": "El",
+        "firstName": "Jilali Imene",
+        "email": "nbabih@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "62831",
+        "lastName": "El",
+        "firstName": "Kaddouri Anas",
+        "email": "abachand@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "46443",
+        "lastName": "El",
+        "firstName": "Kadiri Adil",
+        "email": "hbachar@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63036",
+        "lastName": "El",
+        "firstName": "Kadiri Lamia",
+        "email": "nbachiri@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65825",
+        "lastName": "El",
+        "firstName": "Kaid Mohamed",
+        "email": "kbadda@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "62930",
+        "lastName": "El",
+        "firstName": "Kaidi Ilias",
+        "email": "nbaddaou@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61468",
+        "lastName": "El",
+        "firstName": "Kaissi Karima",
+        "email": "abaddou@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66312",
+        "lastName": "El",
+        "firstName": "Kajtihi Safa",
+        "email": "kbaddou@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63213",
+        "lastName": "El",
+        "firstName": "Kanchidi Laïla",
+        "email": "ibader@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "55960",
+        "lastName": "El",
+        "firstName": "Kaoui Mohamed",
+        "email": "abadibengi@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63858",
+        "lastName": "El",
+        "firstName": "Kaoui Mounia",
+        "email": "fbadji@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "66550",
+        "lastName": "El",
+        "firstName": "Khadiri Amir",
+        "email": "mbadot@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65525",
+        "lastName": "El",
+        "firstName": "khallouki Salma",
+        "email": "ahbaert@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "58814",
+        "lastName": "El",
+        "firstName": "Khamlichi Daoud",
+        "email": "jbaetens@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64678",
+        "lastName": "El",
+        "firstName": "Khamlichi Lina",
+        "email": "lbaetens@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "66489",
+        "lastName": "El",
+        "firstName": "Khannouss Amin",
+        "email": "abaeyens@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "58145",
+        "lastName": "El",
+        "firstName": "Khartaoui Hafsa",
+        "email": "rbaeyens@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65656",
+        "lastName": "El",
+        "firstName": "Khatib Aamad",
+        "email": "abbah@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "64635",
+        "lastName": "El",
+        "firstName": "Khatiri Samia",
+        "email": "aissabah@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61487",
+        "lastName": "El",
+        "firstName": "Khattabi Anas",
+        "email": "alhbah@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65415",
+        "lastName": "El",
+        "firstName": "Khattouti Anas",
+        "email": "aloubah@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64118",
+        "lastName": "El",
+        "firstName": "Khattouti Soukaïna",
+        "email": "amabah@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63105",
+        "lastName": "El",
+        "firstName": "Maâdadi Ayoub",
+        "email": "dibah@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65942",
+        "lastName": "El",
+        "firstName": "Madani Hinde",
+        "email": "hobah@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65561",
+        "lastName": "El",
+        "firstName": "Mahi Salma",
+        "email": "hbah@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "60681",
+        "lastName": "El",
+        "firstName": "Mahouli Ilyas",
+        "email": "idbah@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "56149",
+        "lastName": "El",
+        "firstName": "Mahsini Aimen",
+        "email": "mbbah@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63638",
+        "lastName": "El",
+        "firstName": "Maili Adam",
+        "email": "marbah@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "66379",
+        "lastName": "El",
+        "firstName": "Maimouni Yousra",
+        "email": "sbah@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63145",
+        "lastName": "El",
+        "firstName": "mallah Rania",
+        "email": "ibahassou@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63040",
+        "lastName": "El",
+        "firstName": "Marcouchi Anas",
+        "email": "ibahri@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65984",
+        "lastName": "El",
+        "firstName": "Markouchi Jawad",
+        "email": "mbahrou@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "60643",
+        "lastName": "El",
+        "firstName": "Massaoudi Ismail",
+        "email": "nbahrou@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "62875",
+        "lastName": "El",
+        "firstName": "Mediouni Yassine",
+        "email": "jbaillieux@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63413",
+        "lastName": "El",
+        "firstName": "Mellouli Naïma",
+        "email": "ubailly@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "58868",
+        "lastName": "El",
+        "firstName": "Meloudi Ibtisam",
+        "email": "sbaise@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "63876",
+        "lastName": "El",
+        "firstName": "Mesbahi Nabil",
+        "email": "dbajait@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "63773",
+        "lastName": "El",
+        "firstName": "mesbahi Wafae",
+        "email": "ybajjadi@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62822",
+        "lastName": "El",
+        "firstName": "Messaoudi Amine",
+        "email": "kbakali@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65079",
+        "lastName": "El",
+        "firstName": "Messaoudi Ikram",
+        "email": "bbakayoko@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65742",
+        "lastName": "El",
+        "firstName": "Mezaz Adam",
+        "email": "nbakayoko@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65895",
+        "lastName": "El",
+        "firstName": "Mgueddem Nisrine",
+        "email": "abakhakh@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62946",
+        "lastName": "El",
+        "firstName": "Mimouni Salahdine",
+        "email": "ibakhti@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65002",
+        "lastName": "El",
+        "firstName": "Mokadem Lina",
+        "email": "ibakkach@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "58515",
+        "lastName": "El",
+        "firstName": "Morabit Maryam",
+        "email": "abakkali@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "64039",
+        "lastName": "El",
+        "firstName": "Mossalli Khadija",
+        "email": "abbakkali@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63392",
+        "lastName": "El",
+        "firstName": "Moudni Ayoub",
+        "email": "ibakkali@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66507",
+        "lastName": "El",
+        "firstName": "Mouedden Marwan",
+        "email": "nbakkouche@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "60157",
+        "lastName": "El",
+        "firstName": "Moufid Soukaina",
+        "email": "hbakole@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "53882",
+        "lastName": "El",
+        "firstName": "Mouhayer Rabia",
+        "email": "dbakoyan@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65662",
+        "lastName": "El",
+        "firstName": "Moukhtari Yasmine",
+        "email": "nbakrim@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65837",
+        "lastName": "El",
+        "firstName": "Mounaoui Oumaima",
+        "email": "tbakunovych@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "66066",
+        "lastName": "El",
+        "firstName": "Moussaoui Aya",
+        "email": "ebakwalu@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64904",
+        "lastName": "El",
+        "firstName": "Moussati Ikram",
+        "email": "ibalaj@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "54535",
+        "lastName": "El",
+        "firstName": "Moutaki Sabri",
+        "email": "dbalcik@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65571",
+        "lastName": "El",
+        "firstName": "M'Tili Moutawakil",
+        "email": "aisbalde@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65971",
+        "lastName": "El",
+        "firstName": "Oche Mahira",
+        "email": "aibalde@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "64716",
+        "lastName": "El",
+        "firstName": "Ouafrasi Amine",
+        "email": "embalde@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "61635",
+        "lastName": "El",
+        "firstName": "Ouafrasi Yasmina",
+        "email": "msbalde@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "61933",
+        "lastName": "El",
+        "firstName": "Ouahabi Tasnime",
+        "email": "bbalde@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "56065",
+        "lastName": "El",
+        "firstName": "Ouahabi Youssef",
+        "email": "cbaldi@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62333",
+        "lastName": "El",
+        "firstName": "Ouanani Bilal",
+        "email": "cbaldin@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61739",
+        "lastName": "El",
+        "firstName": "Ouardani Leïla",
+        "email": "jbalfroid@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "63096",
+        "lastName": "El",
+        "firstName": "Ouazanni Ibrahim",
+        "email": "mbalokasamba@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "64470",
+        "lastName": "El",
+        "firstName": "Oudghiri Rayan",
+        "email": "abalter@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "64906",
+        "lastName": "El",
+        "firstName": "Oudouni Yassir",
+        "email": "nbambouris@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "60861",
+        "lastName": "El",
+        "firstName": "Ouidani Zakaria",
+        "email": "bbamousso@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "64485",
+        "lastName": "El",
+        "firstName": "Ousrouti Ines",
+        "email": "abancel@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63154",
+        "lastName": "El",
+        "firstName": "Rhourha Amine",
+        "email": "abandukulu@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65730",
+        "lastName": "El",
+        "firstName": "Wahabi Nouaime",
+        "email": "mbangoura@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "54182",
+        "lastName": "El",
+        "firstName": "Yaghmouri Nabila",
+        "email": "cbangu@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "60731",
+        "lastName": "El",
+        "firstName": "Yaghmouri Sami",
+        "email": "tbanny@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "54420",
+        "lastName": "El",
+        "firstName": "Yasidi Ismail",
+        "email": "rbaoudounova@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "64204",
+        "lastName": "El",
+        "firstName": "Yatouti Selma",
+        "email": "abaptista@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "62927",
+        "lastName": "El",
+        "firstName": "Yattouti Chahine",
+        "email": "pmbaptista@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "60001",
+        "lastName": "El",
+        "firstName": "Yazizi Soukayna",
+        "email": "lbarakhoeva@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "62968",
+        "lastName": "El",
+        "firstName": "Yousfi Abdelghani",
+        "email": "ogpbarancira@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "59907",
+        "lastName": "El",
+        "firstName": "Yousfi Marwan",
+        "email": "lbarattucci@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "62498",
+        "lastName": "El",
+        "firstName": "Yousfi Souraya",
+        "email": "mbarbey@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "66268",
+        "lastName": "Elélé",
+        "firstName": "Menyeng Martin",
+        "email": "mbarbier@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "55905",
+        "lastName": "Elesse",
+        "firstName": "Ifaso Nanou",
+        "email": "pbarbier@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "62405",
+        "lastName": "Elmi",
+        "firstName": "Boulaleh Malika",
+        "email": "mbarcenilla@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63576",
+        "lastName": "Emungu",
+        "firstName": "Okomba Aurélie",
+        "email": "cbardiau@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "63943",
+        "lastName": "Es",
+        "firstName": "Squioui Soumaya",
+        "email": "rbari@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "55117",
+        "lastName": "Esakwa",
+        "firstName": "Liondjo Christopher",
+        "email": "abarka@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63061",
+        "lastName": "Espinal",
+        "firstName": "German Yennyfer",
+        "email": "sbarkan@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "66202",
+        "lastName": "Espinoza",
+        "firstName": "Gaspar Shelley",
+        "email": "mbarki@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62918",
+        "lastName": "Essadik",
+        "firstName": "Ben-Aissa Yassmin",
+        "email": "zbarmaki@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "58137",
+        "lastName": "Essomba",
+        "firstName": "Tsoungui Florian",
+        "email": "rbarman@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "62425",
+        "lastName": "Estrada",
+        "firstName": "Mora Justine",
+        "email": "fbaron@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "63194",
+        "lastName": "Etoga",
+        "firstName": "Eyemoo Olivia",
+        "email": "abaroux@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "66241",
+        "lastName": "Eyenga",
+        "firstName": "Ndomba Rosette",
+        "email": "cbarreira@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64338",
+        "lastName": "Fandio",
+        "firstName": "Samou Frede",
+        "email": "rbarrissoul@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65014",
+        "lastName": "Farajpour",
+        "firstName": "Moghadam Fatemeh",
+        "email": "sbarrou@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "59620",
+        "lastName": "Faray",
+        "firstName": "Mangaza Jessica",
+        "email": "aisbarry@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66419",
+        "lastName": "Fathi",
+        "firstName": "Mohamed Yacin-Ayalé",
+        "email": "amabarry@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "64604",
+        "lastName": "Fernandez",
+        "firstName": "Garcia Diego",
+        "email": "cbarry@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "60040",
+        "lastName": "Feugaing",
+        "firstName": "Chuekam Eric",
+        "email": "kabarry@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "58651",
+        "lastName": "Filali",
+        "firstName": "Mohamed Yassin",
+        "email": "mabarry@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "62203",
+        "lastName": "Filali",
+        "firstName": "Saksak Hatim",
+        "email": "vbarry@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63954",
+        "lastName": "Finocchiaro",
+        "firstName": "Dante Giovanni",
+        "email": "gbarzeele@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64928",
+        "lastName": "Foka",
+        "firstName": "Njimoluh Aslim",
+        "email": "jbas@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "58602",
+        "lastName": "Fragoso",
+        "firstName": "Serrote Francisco",
+        "email": "vbasile@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "60841",
+        "lastName": "Fuambi",
+        "firstName": "Zoïzo Harmelie",
+        "email": "jsbassagal@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "59810",
+        "lastName": "Funzi",
+        "firstName": "Lamu Chloe",
+        "email": "mbastiaens@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "66026",
+        "lastName": "Gabalda",
+        "firstName": "Delepière Rose",
+        "email": "jbastos@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63313",
+        "lastName": "Ghazi",
+        "firstName": "Bachiri Fatima",
+        "email": "sbaud@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63117",
+        "lastName": "Gheorghe",
+        "firstName": "Iliuta George",
+        "email": "tbaudoux@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66353",
+        "lastName": "Gherasim",
+        "firstName": "Ioana Bianca",
+        "email": "lbaudson@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "64552",
+        "lastName": "Gielis",
+        "firstName": "Destrebecq Nicolas",
+        "email": "hbauduin@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "62861",
+        "lastName": "Gihozo",
+        "firstName": "Blanche Mireille",
+        "email": "hbauwens@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "61522",
+        "lastName": "Gomes",
+        "firstName": "Machado Ester",
+        "email": "pbay@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "56706",
+        "lastName": "Gomes",
+        "firstName": "Moreira Larissa",
+        "email": "cgbayekula@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65332",
+        "lastName": "Gomes",
+        "firstName": "Pinto Gabriel",
+        "email": "ebayhan@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "60757",
+        "lastName": "Gomes",
+        "firstName": "Rodrigues Jessica",
+        "email": "sbaysal@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "64628",
+        "lastName": "Gomez",
+        "firstName": "Alijarte Theo",
+        "email": "tbaysal@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "65299",
+        "lastName": "Gomez",
+        "firstName": "Alvarez Johan",
+        "email": "abazgouti@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "59618",
+        "lastName": "Gomez",
+        "firstName": "Rengifo Angie",
+        "email": "abazine@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65358",
+        "lastName": "Gonzalez",
+        "firstName": "Jessica Jennifer",
+        "email": "cbebe@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65542",
+        "lastName": "Gonzalez",
+        "firstName": "Fernandez Antoine",
+        "email": "bbeck@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "55248",
+        "lastName": "Gonzalez",
+        "firstName": "Fernandez Nicolas",
+        "email": "mbecker@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "60277",
+        "lastName": "Gonzalez",
+        "firstName": "Hernandez Margot",
+        "email": "pbecker@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62790",
+        "lastName": "Gonzalez",
+        "firstName": "Vergara Aïnhoa",
+        "email": "lbeckers@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66225",
+        "lastName": "Gonzalez",
+        "firstName": "Vergara Anthony",
+        "email": "sbecks@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65835",
+        "lastName": "Gourieh",
+        "firstName": "Rachelle (Raphaël)",
+        "email": "abeclard@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65150",
+        "lastName": "Guekon",
+        "firstName": "Touko Dylane",
+        "email": "ebedzhanian@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "63567",
+        "lastName": "Guemto",
+        "firstName": "Kouam Franck",
+        "email": "mbeeckman@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62460",
+        "lastName": "Guettafi",
+        "firstName": "Jebbouri Ayman",
+        "email": "tbeerten@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "64694",
+        "lastName": "Guillen",
+        "firstName": "Arguelles Lorenzo",
+        "email": "sbegdouri@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63446",
+        "lastName": "Haass",
+        "firstName": "Vink Martin",
+        "email": "jbeghin@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "60825",
+        "lastName": "Hadj",
+        "firstName": "Mehend Oumaima",
+        "email": "wbeia@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "63645",
+        "lastName": "Haik",
+        "firstName": "Lkhoulf Adnane",
+        "email": "abejaji@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63263",
+        "lastName": "Hamon",
+        "firstName": "Carlin Maxime",
+        "email": "abekir@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65249",
+        "lastName": "Hassan",
+        "firstName": "Merito Rahma",
+        "email": "hbekkaoui@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64478",
+        "lastName": "Hassani",
+        "firstName": "Rais Maha",
+        "email": "kbektas@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "61975",
+        "lastName": "Hatika",
+        "firstName": "Tsayi Joyce",
+        "email": "sbel@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "59049",
+        "lastName": "Heidar",
+        "firstName": "Pour Saïna",
+        "email": "abelhadj@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65322",
+        "lastName": "Heldenberg",
+        "firstName": "Tassiaux Alexis",
+        "email": "sbelafia@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "62857",
+        "lastName": "Hinda",
+        "firstName": "Ange Manuella",
+        "email": "cbelanwa@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65830",
+        "lastName": "Hmimsa",
+        "firstName": "Tahiri Moncef",
+        "email": "ibelarbi@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "53522",
+        "lastName": "Honvou",
+        "firstName": "Noukpokinnou Aymar",
+        "email": "zbelataris@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "61387",
+        "lastName": "Hsaini",
+        "firstName": "Fatima Zahra",
+        "email": "lebelche@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "62818",
+        "lastName": "Hurtado",
+        "firstName": "Molina Laura",
+        "email": "hebeldjilali@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66533",
+        "lastName": "Igrejas",
+        "firstName": "Taveira Ismaël",
+        "email": "hbelfaqir@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "10590",
+        "lastName": "Inga",
+        "firstName": "Kabedi Fanny",
+        "email": "nbelfassi@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "61867",
+        "lastName": "Ingabire",
+        "firstName": "Diella Chania",
+        "email": "ejbelhacel@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "61997",
+        "lastName": "Irhalan",
+        "firstName": "Zaidi Fatima",
+        "email": "sbelhadj@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64556",
+        "lastName": "Ishimwe",
+        "firstName": "Clovis Josue",
+        "email": "sabelhadj@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "58388",
+        "lastName": "Isiegas",
+        "firstName": "Arribas Paula",
+        "email": "dbelhadj@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65262",
+        "lastName": "Islam",
+        "firstName": "Uddin Ali",
+        "email": "fbelhaima@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64401",
+        "lastName": "Jalal",
+        "firstName": "Mansour Zyad",
+        "email": "mbelhaima@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65698",
+        "lastName": "Jbari",
+        "firstName": "Mansori Nada",
+        "email": "hbelhaj@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "62802",
+        "lastName": "Jbilo",
+        "firstName": "Kebbor Zaid",
+        "email": "abelhaj@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63285",
+        "lastName": "Jilali",
+        "firstName": "Mohamed Amine",
+        "email": "kbelhaj@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62207",
+        "lastName": "Jiofack",
+        "firstName": "Jiotsop Eurydice",
+        "email": "ibelhou@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65974",
+        "lastName": "Juienkou",
+        "firstName": "Essembion Wallis",
+        "email": "abelkaid@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63794",
+        "lastName": "Kabongo",
+        "firstName": "Zamuda Carely",
+        "email": "cbelkhir@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65934",
+        "lastName": "Kaboza",
+        "firstName": "Mukoma Alicia",
+        "email": "sbellahsini@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65035",
+        "lastName": "Kaçorri",
+        "firstName": "Lesa Vanessa",
+        "email": "mbellavia@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65022",
+        "lastName": "Kalenga",
+        "firstName": "Kanda-Majerus Gaël",
+        "email": "gbellello@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66094",
+        "lastName": "Kalenga",
+        "firstName": "Mulongie Christiane",
+        "email": "bbellemans@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63713",
+        "lastName": "Kalimira",
+        "firstName": "Kabagaya Chloé",
+        "email": "abellotto@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "63795",
+        "lastName": "Kalubi",
+        "firstName": "Ndoba Laura",
+        "email": "ahbelmahi@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63352",
+        "lastName": "Kamgaing",
+        "firstName": "Fodjo Franck",
+        "email": "hbelmejdoub@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61938",
+        "lastName": "Kamgang",
+        "firstName": "Kengne Marinette",
+        "email": "abelmiloudi@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66041",
+        "lastName": "Kamil",
+        "firstName": "Mahfoud Kader",
+        "email": "abelot@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "63286",
+        "lastName": "Kamuanga",
+        "firstName": "Tujibikile Dina",
+        "email": "abelvaux@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64147",
+        "lastName": "Kaniki",
+        "firstName": "Ndwey Céline",
+        "email": "obenabdallah@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65900",
+        "lastName": "Kano",
+        "firstName": "Souna Hussein",
+        "email": "cbenabdelkader@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63077",
+        "lastName": "Kaptue",
+        "firstName": "Fokam Kevin",
+        "email": "hbenabdelkader@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "58033",
+        "lastName": "Karraz",
+        "firstName": "Iness Nür",
+        "email": "ibenabdelkader@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66509",
+        "lastName": "Kasongo",
+        "firstName": "Zaina Youri",
+        "email": "nbenabdelmoumen@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "65052",
+        "lastName": "Katalisi",
+        "firstName": "Banganga Jenny",
+        "email": "mbenahmed@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62393",
+        "lastName": "Kayembe",
+        "firstName": "Girbau Claudia",
+        "email": "hbenali@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "60856",
+        "lastName": "Kayembe",
+        "firstName": "Ntumba Glodie",
+        "email": "nbenali@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "57375",
+        "lastName": "Kazadi",
+        "firstName": "Mbuyi Fleur",
+        "email": "nobenali@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65881",
+        "lastName": "Kazadi",
+        "firstName": "Mulanga Imelda",
+        "email": "sabenali@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66004",
+        "lastName": "Kazingufu",
+        "firstName": "Ikibasumba Elizabeth",
+        "email": "hbenallal@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66392",
+        "lastName": "Kemayou",
+        "firstName": "Myriam Dorine",
+        "email": "aybenamar@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "61049",
+        "lastName": "Kemfang",
+        "firstName": "Kambou Patrick",
+        "email": "mbenamar@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "60566",
+        "lastName": "Kenmogne",
+        "firstName": "Tagni Dimitri",
+        "email": "nbenamar@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63656",
+        "lastName": "Kharraz",
+        "firstName": "Barakat Himran",
+        "email": "dbenaouicha@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66169",
+        "lastName": "Kikangala",
+        "firstName": "Ngoie Cyrus",
+        "email": "hbenaouicha@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62997",
+        "lastName": "Kikukama",
+        "firstName": "Bopela Jennifer",
+        "email": "abenatra@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66027",
+        "lastName": "Kilonga",
+        "firstName": "Kizowa Manuel",
+        "email": "mbenazzouz@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66585",
+        "lastName": "Kinda",
+        "firstName": "Dikondja Djelo",
+        "email": "ibenbaiad@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65775",
+        "lastName": "Kisimbila",
+        "firstName": "Tembo Cassey",
+        "email": "ibenbouhout@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62331",
+        "lastName": "Kitenge",
+        "firstName": "Djamba Denis",
+        "email": "cbenchaib@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "60642",
+        "lastName": "Kometchou",
+        "firstName": "Melvy Sybella",
+        "email": "rbenchaib@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "63726",
+        "lastName": "Konde",
+        "firstName": "Bazola Lilly",
+        "email": "abencheikh@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "58493",
+        "lastName": "Kopere",
+        "firstName": "Ngologbia Daniel",
+        "email": "mbenchikh@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65615",
+        "lastName": "Kouadio",
+        "firstName": "N'Guettia Confidence",
+        "email": "ibendhia@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61258",
+        "lastName": "Kouimen",
+        "firstName": "Lamarti Ilias",
+        "email": "mbenhaddej@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64932",
+        "lastName": "Kourouma",
+        "firstName": "Mamadou Saliou",
+        "email": "wbenhamou@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "64465",
+        "lastName": "Kuba",
+        "firstName": "Alembene Iris",
+        "email": "sbenhassan@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "55284",
+        "lastName": "Kula",
+        "firstName": "Kula Scott",
+        "email": "obenissa@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "61034",
+        "lastName": "Kurt6-Vander",
+        "firstName": "Hoeden Hanife",
+        "email": "rbenjattou@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "56272",
+        "lastName": "Kusikumbaku",
+        "firstName": "Emannuel Junior",
+        "email": "mbenkahla@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "61921",
+        "lastName": "La",
+        "firstName": "Monica Federica",
+        "email": "dbenkamsal@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "64892",
+        "lastName": "Lahrouzi",
+        "firstName": "Taytay Loubna",
+        "email": "obenmessaoud@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66063",
+        "lastName": "Laktibi",
+        "firstName": "Mohamed Amine",
+        "email": "sabenmkaddem@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66060",
+        "lastName": "Lanjri",
+        "firstName": "Maachou Nisrine",
+        "email": "vbenmustapha@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65301",
+        "lastName": "Le",
+        "firstName": "Beller Maïna",
+        "email": "kbenotmane@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65976",
+        "lastName": "Le",
+        "firstName": "Bon Safira",
+        "email": "abensafia@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "60401",
+        "lastName": "Le",
+        "firstName": "Clercq Larissa",
+        "email": "abensennah@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "55844",
+        "lastName": "Le",
+        "firstName": "Gac Jessie",
+        "email": "kbenslaimane@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63882",
+        "lastName": "Le",
+        "firstName": "Grand Louis",
+        "email": "sabentegherouit@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "52282",
+        "lastName": "Le",
+        "firstName": "Pallec Maëlle",
+        "email": "sbenyahya@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66262",
+        "lastName": "Le",
+        "firstName": "Pennec Iris",
+        "email": "mbenyoussef@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65105",
+        "lastName": "Le",
+        "firstName": "Roy Gabriel",
+        "email": "mbenaata@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61287",
+        "lastName": "Lefort",
+        "firstName": "Grund Aurélie",
+        "email": "dbenabdallah@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "59628",
+        "lastName": "Lemba",
+        "firstName": "Mabuana Benedit",
+        "email": "abenabdelkarim@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64684",
+        "lastName": "Lemba",
+        "firstName": "Mabuana Josly",
+        "email": "fbenabdellah@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66471",
+        "lastName": "Leudjeu",
+        "firstName": "Nianga Ronald",
+        "email": "ibenaissa@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "59425",
+        "lastName": "Lokembo",
+        "firstName": "Ndjande Nicole",
+        "email": "imbenaissa@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64462",
+        "lastName": "Lomama",
+        "firstName": "Madiamba Naya",
+        "email": "ribenaissa@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63855",
+        "lastName": "Lombahe",
+        "firstName": "Shango Mike",
+        "email": "noubenali@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63926",
+        "lastName": "Lombayo",
+        "firstName": "Bombeke Sean",
+        "email": "abenalla@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61139",
+        "lastName": "Longo",
+        "firstName": "Nzinga Gaëlle",
+        "email": "wbenallal@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "58569",
+        "lastName": "Lopes",
+        "firstName": "Trindade Catarina",
+        "email": "hbenamar@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65072",
+        "lastName": "Lopez",
+        "firstName": "Igl6as Raul",
+        "email": "mbenayad@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63273",
+        "lastName": "Lopez",
+        "firstName": "Rivero Lorena",
+        "email": "sbenayad@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66435",
+        "lastName": "Louarroudi",
+        "firstName": "Salah Eddine",
+        "email": "mbenceralaoui@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "61548",
+        "lastName": "Lungeni",
+        "firstName": "Maweze Emmanuel",
+        "email": "nbendalibraham@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "59975",
+        "lastName": "Lutete",
+        "firstName": "Mvutukidi Terence",
+        "email": "wbendris@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64006",
+        "lastName": "Luyindula",
+        "firstName": "Carvalho Daniel",
+        "email": "jbenelabed@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "57504",
+        "lastName": "Lwabandji",
+        "firstName": "Muhindo Pascal",
+        "email": "mbenhaddi@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65180",
+        "lastName": "Maakoul",
+        "firstName": "Abdel Hadi",
+        "email": "bbenhaddou@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62819",
+        "lastName": "Mabika",
+        "firstName": "Olondo Noah",
+        "email": "kbenhaddouch@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62324",
+        "lastName": "Mabrouk",
+        "firstName": "Houtain Nour",
+        "email": "mbenhaddouche@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "62436",
+        "lastName": "Madmadi",
+        "firstName": "Fikri Abdallah",
+        "email": "kabenhadi@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64672",
+        "lastName": "Mafouo",
+        "firstName": "Tedongmo Michelle",
+        "email": "lbenhadi@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "59005",
+        "lastName": "Magne",
+        "firstName": "Bouopda Sylvaine",
+        "email": "ybenhalima@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "61707",
+        "lastName": "Majdi",
+        "firstName": "Mrabet Ines",
+        "email": "nbenieich@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63919",
+        "lastName": "Makiadi",
+        "firstName": "Dombaxi Elisabeth",
+        "email": "sbenitez@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62735",
+        "lastName": "Makwambala",
+        "firstName": "Bisakananu Pierre-Noah",
+        "email": "abenjabar@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62635",
+        "lastName": "Malapa",
+        "firstName": "Ebenye Victoire",
+        "email": "sbenkada@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "57109",
+        "lastName": "Malaquin",
+        "firstName": "Danel Nina",
+        "email": "mbenkaddour@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "61542",
+        "lastName": "Mallik",
+        "firstName": "Khouikha Hamza",
+        "email": "zbenkaddour@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65958",
+        "lastName": "Mamaar",
+        "firstName": "Ouassini Ines",
+        "email": "rbenkahla@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "62825",
+        "lastName": "Mana",
+        "firstName": "Kamno Saurelle",
+        "email": "abenlamkaddem@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62751",
+        "lastName": "Manouach",
+        "firstName": "Aknioui Nabil",
+        "email": "wbenlamlih@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "66351",
+        "lastName": "Manzanza",
+        "firstName": "Okana Lauryn",
+        "email": "mbenmoussa@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63589",
+        "lastName": "Mariñas",
+        "firstName": "Moreno Giovanni",
+        "email": "fbenmrah@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65772",
+        "lastName": "Marinho",
+        "firstName": "Carreira Nicolas",
+        "email": "sbennani@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "64764",
+        "lastName": "Marques",
+        "firstName": "Silva Kimberly",
+        "email": "lbenois@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "60245",
+        "lastName": "Martin",
+        "firstName": "Garcia Tanita",
+        "email": "jbenoye@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "61699",
+        "lastName": "Mata",
+        "firstName": "Perez Emeline",
+        "email": "cbenrad@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "64235",
+        "lastName": "Matondo",
+        "firstName": "Lelo Ndavo",
+        "email": "bbensaadoun@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "64497",
+        "lastName": "Matuyindula",
+        "firstName": "Mvangi Jonathan",
+        "email": "ibensaid@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "63559",
+        "lastName": "Mavungu",
+        "firstName": "Lutete Noémi",
+        "email": "hbensalah@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61819",
+        "lastName": "Maya",
+        "firstName": "Mayonkele Jonas",
+        "email": "kbensbia@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "60710",
+        "lastName": "Mayala",
+        "firstName": "Mboumbi Marfi",
+        "email": "rbenseddiq@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "63658",
+        "lastName": "Mayalita",
+        "firstName": "Valencia Dylann",
+        "email": "sbenseddiq@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66487",
+        "lastName": "Mayorga",
+        "firstName": "Fajado Rodrigo",
+        "email": "ebenslimi@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "9563",
+        "lastName": "Mayuma",
+        "firstName": "Napi Rody",
+        "email": "zbentattou@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "62598",
+        "lastName": "Mbakop",
+        "firstName": "Yombia Eloir",
+        "email": "mbentayeb@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "62568",
+        "lastName": "Mbala",
+        "firstName": "Luzolo Evelyne",
+        "email": "mtbenterki@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "59113",
+        "lastName": "Mbigue",
+        "firstName": "Tiencheu Ornella",
+        "email": "nbenyahia@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63616",
+        "lastName": "Mbiye",
+        "firstName": "Elyon Kalombo",
+        "email": "ybenyahia@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63202",
+        "lastName": "Mebonde",
+        "firstName": "Tsoungui Thierry",
+        "email": "ybenzarfa@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "59298",
+        "lastName": "Medeiros",
+        "firstName": "Teixeira Mariana",
+        "email": "sbenzarti@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "62035",
+        "lastName": "Melhaoui",
+        "firstName": "Mohamed Amine",
+        "email": "mbenziane@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65693",
+        "lastName": "Mèndes",
+        "firstName": "Sanjurjo Ines",
+        "email": "mubenziane@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "61080",
+        "lastName": "M'Firi",
+        "firstName": "Makolo Frédéric",
+        "email": "mberaftah@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66251",
+        "lastName": "M'Libwa",
+        "firstName": "Faila Esther",
+        "email": "vberent@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63054",
+        "lastName": "Mocircioiu",
+        "firstName": "Prodea Marian",
+        "email": "gberger@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "64551",
+        "lastName": "Mogongo",
+        "firstName": "Likoka Akil",
+        "email": "jberges@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "58543",
+        "lastName": "Mohamadou",
+        "firstName": "Oumarou Ismaël",
+        "email": "kbergmans@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "59528",
+        "lastName": "Mohamed",
+        "firstName": "Abdoulkader Houssein",
+        "email": "mabernaerts@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63008",
+        "lastName": "Mohamed",
+        "firstName": "Ahmed Mohamed",
+        "email": "ebernard@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "61462",
+        "lastName": "Mohamed",
+        "firstName": "Ismael Asma",
+        "email": "ibernard@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "64406",
+        "lastName": "Mondzake",
+        "firstName": "Kevin William",
+        "email": "mbernard@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "58260",
+        "lastName": "Moreira",
+        "firstName": "Dias Iris",
+        "email": "abernasconi@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "60565",
+        "lastName": "Moritan",
+        "firstName": "Vidal Melanie",
+        "email": "mbernateau@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "54307",
+        "lastName": "Motoko",
+        "firstName": "Kwete Jonathan",
+        "email": "aberouhou@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "63806",
+        "lastName": "Moufadal",
+        "firstName": "Dinar Ahlam",
+        "email": "mberquin@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "66467",
+        "lastName": "Moufadal",
+        "firstName": "Dinar Said",
+        "email": "aberrada@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62445",
+        "lastName": "Mouraux-De",
+        "firstName": "Brandt Zazie",
+        "email": "nberrada@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "64903",
+        "lastName": "M'Pia",
+        "firstName": "Nginda Eliyah",
+        "email": "iberrida@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "59139",
+        "lastName": "Mposa",
+        "firstName": "Malonda Perle",
+        "email": "yberrouba@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63449",
+        "lastName": "M'Rabet",
+        "firstName": "Temsamani Soufiane",
+        "email": "tberry@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "55419",
+        "lastName": "Muanza",
+        "firstName": "Antonio Glori",
+        "email": "abert@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66275",
+        "lastName": "Mugisha",
+        "firstName": "Kaze Bianca",
+        "email": "cberth@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65206",
+        "lastName": "Muñoz",
+        "firstName": "Mendez Esteban",
+        "email": "lberthe@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61133",
+        "lastName": "Mutale",
+        "firstName": "Kubinga Esmeralda",
+        "email": "mberthet@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "65869",
+        "lastName": "Muteba",
+        "firstName": "Kaninda Esther",
+        "email": "cbertiau@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "59116",
+        "lastName": "Mvuezolo",
+        "firstName": "Makubu Manon",
+        "email": "lbertiau@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66298",
+        "lastName": "Mwelwa",
+        "firstName": "Kahenga Carole",
+        "email": "mbesancenot@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63574",
+        "lastName": "Na",
+        "firstName": "Mukamba-Fahida Gracia",
+        "email": "vbessonov@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65066",
+        "lastName": "Naddaf",
+        "firstName": "Fahmideh Leïla",
+        "email": "ibeytemsamani@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65801",
+        "lastName": "Nahi",
+        "firstName": "Habhab Yassir",
+        "email": "abeyer@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65012",
+        "lastName": "Navarrete",
+        "firstName": "Torres Danny",
+        "email": "nbeza@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "55996",
+        "lastName": "Nayma",
+        "firstName": "Assam Ismail",
+        "email": "ybeztout@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61799",
+        "lastName": "Ndjemi",
+        "firstName": "Tchamba Jessy",
+        "email": "kbiala@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "65424",
+        "lastName": "Ndongala",
+        "firstName": "Maleka Noah",
+        "email": "ebialek@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "61965",
+        "lastName": "Negraj",
+        "firstName": "L'Ghazouan Karima",
+        "email": "nbianchin@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65731",
+        "lastName": "Nembetwa",
+        "firstName": "Ngandu Kenza",
+        "email": "bbichon@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "64851",
+        "lastName": "Nevado",
+        "firstName": "Morgado Jennifer",
+        "email": "ebiesemans@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "62108",
+        "lastName": "Ngafani",
+        "firstName": "Liongé Djovani",
+        "email": "jbigirimana@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "57087",
+        "lastName": "Ngeumou",
+        "firstName": "Djomkam Abdelkarim",
+        "email": "vbikoko@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "55521",
+        "lastName": "Ngila",
+        "firstName": "Ngeleka Natacha",
+        "email": "tbil@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65786",
+        "lastName": "Ngninpieba",
+        "firstName": "Kana Joress",
+        "email": "bbilal@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62329",
+        "lastName": "Ngono",
+        "firstName": "Etoundi Judith",
+        "email": "dbileac@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64021",
+        "lastName": "Ngonyem",
+        "firstName": "Zangue Denielle",
+        "email": "hbilge@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "61180",
+        "lastName": "Ngouany",
+        "firstName": "Tchetchouang Merlin",
+        "email": "bbilliotte@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "64533",
+        "lastName": "Ngoufack",
+        "firstName": "Kitio Pérèsse",
+        "email": "abiname@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "65321",
+        "lastName": "Ngoumou",
+        "firstName": "Jiazet Paterson",
+        "email": "ebindiou@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "58883",
+        "lastName": "Nguety",
+        "firstName": "Wandji Raoul",
+        "email": "abion@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63497",
+        "lastName": "Nguyen",
+        "firstName": "Tri Cuong",
+        "email": "gbisolokele@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "60463",
+        "lastName": "Nida",
+        "firstName": "Pouga Léonce",
+        "email": "tbister@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64909",
+        "lastName": "Nikuze",
+        "firstName": "Allégria Jessica",
+        "email": "gbiyanga@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "66400",
+        "lastName": "Niyongabo",
+        "firstName": "Nduwimana Alain",
+        "email": "clbizimana@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66005",
+        "lastName": "Nkangala",
+        "firstName": "Ndobi Legan",
+        "email": "lblanc@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "61339",
+        "lastName": "Nkiani",
+        "firstName": "Etshil Rebecca",
+        "email": "mablanchet@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63387",
+        "lastName": "Nkondi",
+        "firstName": "Mapitshi Keren",
+        "email": "lblancquaert@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "62765",
+        "lastName": "N'Kuli",
+        "firstName": "Ebuir Anne-Alice",
+        "email": "cblarieaux@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "64494",
+        "lastName": "Noah",
+        "firstName": "Mengue Dieudonné",
+        "email": "mblendeman@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65350",
+        "lastName": "Nono",
+        "firstName": "Tawet Marcelle",
+        "email": "cblois@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "63064",
+        "lastName": "Nsimba",
+        "firstName": "Mpasi Michée",
+        "email": "cblomart@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "64292",
+        "lastName": "Ntelo-Wa-Leko",
+        "firstName": "Cécilia Sarah",
+        "email": "lblondel@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "66308",
+        "lastName": "Ntogogo",
+        "firstName": "Tangui Noah",
+        "email": "sblyth@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "57653",
+        "lastName": "Ntumba",
+        "firstName": "Kakumba Patiana",
+        "email": "mboazzati@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62193",
+        "lastName": "Ntumba",
+        "firstName": "Kazadi Nathan",
+        "email": "cbocajal@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "55847",
+        "lastName": "Ntumba",
+        "firstName": "Mudiande Naomie",
+        "email": "jbockstaele@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "62158",
+        "lastName": "Nuñez",
+        "firstName": "Martinez Inaraï",
+        "email": "sbodard@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "64521",
+        "lastName": "Nwete",
+        "firstName": "Ngouoko Stéphie",
+        "email": "cbodart@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66387",
+        "lastName": "Nyembo",
+        "firstName": "Ngoie Marie-Ange",
+        "email": "mbodart@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "63871",
+        "lastName": "Nyokas",
+        "firstName": "Zalamou Howard",
+        "email": "zobodart@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "60622",
+        "lastName": "Nzitabakuze",
+        "firstName": "Ineza Savanaah",
+        "email": "lboden@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "64273",
+        "lastName": "Nzitabakuze",
+        "firstName": "Shimwa Amélia",
+        "email": "hbodouch@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "59689",
+        "lastName": "Ochane",
+        "firstName": "Hammoud Chaima",
+        "email": "vbodson@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "60594",
+        "lastName": "Ochane",
+        "firstName": "Hammoud Yosra",
+        "email": "emboen@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "63857",
+        "lastName": "Odar",
+        "firstName": "Pajuelo Yarissa",
+        "email": "aboero@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "57329",
+        "lastName": "Odiko",
+        "firstName": "Lokinu Jérôme",
+        "email": "sbogoulit@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66593",
+        "lastName": "Okoni",
+        "firstName": "Silvie Shako",
+        "email": "hbohajas@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64263",
+        "lastName": "Olande",
+        "firstName": "Baruti Xx",
+        "email": "dbohmler@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66134",
+        "lastName": "Olanguena",
+        "firstName": "Kuatche Keline",
+        "email": "lboie@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "61153",
+        "lastName": "Oliveira",
+        "firstName": "Avila Gabrielle",
+        "email": "fboisvert@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "58378",
+        "lastName": "Oliveira",
+        "firstName": "Faria Beatriz",
+        "email": "nbokeli@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61585",
+        "lastName": "Oliveira",
+        "firstName": "Figueiredo Eduardo",
+        "email": "fbokeli@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "57373",
+        "lastName": "Omari",
+        "firstName": "Kapundu Patrick",
+        "email": "bbokuma@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "60069",
+        "lastName": "Opese",
+        "firstName": "Enongo Méline",
+        "email": "hbolambakahile@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65846",
+        "lastName": "Osorio",
+        "firstName": "Gonçalves André",
+        "email": "jbolis@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "54571",
+        "lastName": "Otshinga",
+        "firstName": "Loyamba Dieudonne",
+        "email": "rbolo@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "64329",
+        "lastName": "Otte",
+        "firstName": "Lara- Louisa",
+        "email": "abombaerts@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "59634",
+        "lastName": "Ouabi",
+        "firstName": "Azegouagh Amal",
+        "email": "nbomhals@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "64602",
+        "lastName": "Ouajir",
+        "firstName": "Guelai Marwane",
+        "email": "cbonami@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63738",
+        "lastName": "Oudghiri",
+        "firstName": "Idrissi Nour",
+        "email": "cbondroit@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63256",
+        "lastName": "Oulad",
+        "firstName": "Haddou Manel",
+        "email": "ebones@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "66256",
+        "lastName": "Oulad",
+        "firstName": "Hamouche Mohamed",
+        "email": "lbonhoure@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "58927",
+        "lastName": "Oulad",
+        "firstName": "Omar Achraf",
+        "email": "abonifacio@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "66498",
+        "lastName": "Oulad-Ali",
+        "firstName": "Ben-Masoud Inssaf",
+        "email": "nbonilla@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "56117",
+        "lastName": "Oumbe",
+        "firstName": "Sinza Arnold",
+        "email": "dbonini@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "64324",
+        "lastName": "Ousmane",
+        "firstName": "Yattara Hady",
+        "email": "ebonnard@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "62457",
+        "lastName": "Owawa",
+        "firstName": "Diese Serena",
+        "email": "nbonnier@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65302",
+        "lastName": "Panlap",
+        "firstName": "Nde Yann",
+        "email": "mbononge@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65316",
+        "lastName": "Pantola",
+        "firstName": "Cunanan Felizaveth",
+        "email": "jbonzon@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "55974",
+        "lastName": "Pantola",
+        "firstName": "Cunanan Joshualyn",
+        "email": "mboogaerts@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65328",
+        "lastName": "Paucar",
+        "firstName": "Chicaiza Stiven",
+        "email": "jboone@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61255",
+        "lastName": "Pauni",
+        "firstName": "N¿songe Maria",
+        "email": "lboquelet@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "65146",
+        "lastName": "Pereira",
+        "firstName": "Mota Mattheus",
+        "email": "rbora@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "56427",
+        "lastName": "Pereira",
+        "firstName": "Pimentel Bionda",
+        "email": "lborbolla@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62134",
+        "lastName": "Perez",
+        "firstName": "Cortes Angie",
+        "email": "mborcan@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65582",
+        "lastName": "Perez",
+        "firstName": "Gonzales Blessing",
+        "email": "cborgers@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65673",
+        "lastName": "Perez",
+        "firstName": "Mori Fernanda",
+        "email": "jborkowski@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62738",
+        "lastName": "Perez",
+        "firstName": "Navas Inés",
+        "email": "bborlee@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65523",
+        "lastName": "Perez",
+        "firstName": "Suarez Oscar",
+        "email": "tborlee@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "60222",
+        "lastName": "Perez",
+        "firstName": "Ventos Kenzo",
+        "email": "sbormans@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "56574",
+        "lastName": "Periquito",
+        "firstName": "Cardoso Bruno",
+        "email": "cborremans@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "58361",
+        "lastName": "Perrot",
+        "firstName": "Roubaud Titus",
+        "email": "oborsu@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "55407",
+        "lastName": "Pinto",
+        "firstName": "Almeida Kelly",
+        "email": "ibosbaa@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64779",
+        "lastName": "Pinto",
+        "firstName": "Ferreira Tiphanie",
+        "email": "cbossin@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65423",
+        "lastName": "Pinto",
+        "firstName": "Gomes Ugo",
+        "email": "wbosson@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65056",
+        "lastName": "Pinto",
+        "firstName": "Monteiro Tânia",
+        "email": "zbossue@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "58082",
+        "lastName": "Piteüs",
+        "firstName": "New Yseult",
+        "email": "ibotachbaqut@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "58101",
+        "lastName": "Poma",
+        "firstName": "Fabián Maria",
+        "email": "sbotnaru@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "60195",
+        "lastName": "Ponce",
+        "firstName": "Pilaguano Rebeca",
+        "email": "ibouabaya@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62239",
+        "lastName": "Pontigo",
+        "firstName": "Pontigo Alessandra",
+        "email": "rbouabdallah@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "61562",
+        "lastName": "Qiraouani",
+        "firstName": "Boucetta Sarah",
+        "email": "bbouadjadj@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66546",
+        "lastName": "Qourchi",
+        "firstName": "Khaldoun Zainab",
+        "email": "ibouaissa@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62322",
+        "lastName": "Rabhiou",
+        "firstName": "Rabhioui Salman",
+        "email": "hboualala@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61669",
+        "lastName": "Rabtach",
+        "firstName": "Salwa Lina",
+        "email": "ibouali@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "58991",
+        "lastName": "Rahali",
+        "firstName": "Doukali Ahmad",
+        "email": "rbouali@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "59059",
+        "lastName": "Rakotonandrasana",
+        "firstName": "Navalona Faniry",
+        "email": "rbouanani@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "59984",
+        "lastName": "Ramirez",
+        "firstName": "Loachamin Erika",
+        "email": "mbouayache@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65093",
+        "lastName": "Ramos",
+        "firstName": "Carvalho Francisco",
+        "email": "sbouazza@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "61147",
+        "lastName": "Ramos",
+        "firstName": "Lobão Ines",
+        "email": "aboubker@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65183",
+        "lastName": "Ranile",
+        "firstName": "Mary Rose",
+        "email": "nboubkiri@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "58924",
+        "lastName": "Renouprez",
+        "firstName": "Marie France",
+        "email": "hboubnane@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "56871",
+        "lastName": "Rios",
+        "firstName": "Mora Natalie",
+        "email": "cbouboutiefski@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62900",
+        "lastName": "Rodriguez",
+        "firstName": "Lizon Célia",
+        "email": "abouchal@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "52008",
+        "lastName": "Ruales",
+        "firstName": "Reyna Evert",
+        "email": "mbouchelet@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "62327",
+        "lastName": "Ruiz",
+        "firstName": "Jiménez Maria",
+        "email": "mboucher@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "58421",
+        "lastName": "Rullaert",
+        "firstName": "Moradiellos Paula",
+        "email": "pboucher@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "60897",
+        "lastName": "Rusi",
+        "firstName": "Hasani Ilyes",
+        "email": "aboucherand@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "64086",
+        "lastName": "Ruzizi",
+        "firstName": "Bahati Malcom",
+        "email": "cbouchez@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "53650",
+        "lastName": "Saad",
+        "firstName": "Nashed José",
+        "email": "obouchkhachakh@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "59535",
+        "lastName": "Safi",
+        "firstName": "Noorul Hadi",
+        "email": "sbouchnafa@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64671",
+        "lastName": "Saint",
+        "firstName": "Jean Joachim",
+        "email": "wbouchoiri@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66144",
+        "lastName": "Saïzonou",
+        "firstName": "Mahoutin Géry",
+        "email": "ybouchouicha@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "54136",
+        "lastName": "Salazaku",
+        "firstName": "Kinzadi Coretta",
+        "email": "yobouchrif@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "61832",
+        "lastName": "Salazar",
+        "firstName": "Youssef Joseph",
+        "email": "wbouchti@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "64455",
+        "lastName": "Salazar",
+        "firstName": "Salazar Lucia",
+        "email": "cboucquey@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "41087",
+        "lastName": "Salazar",
+        "firstName": "Torres Erika",
+        "email": "tboucquiaux@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "61979",
+        "lastName": "Salih",
+        "firstName": "Ahmed Aya",
+        "email": "yboudard@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "62728",
+        "lastName": "Scandella",
+        "firstName": "Blavier Philomène",
+        "email": "mboudart@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "64842",
+        "lastName": "Seixas",
+        "firstName": "Morais Kelya",
+        "email": "mbouddouft@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65944",
+        "lastName": "Sennouni",
+        "firstName": "Mouh Iman",
+        "email": "abouddounti@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65483",
+        "lastName": "Seye",
+        "firstName": "Aida Khady",
+        "email": "rmbouderbat@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65748",
+        "lastName": "Sidibe",
+        "firstName": "Seydina Aliou",
+        "email": "cboudin@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "59688",
+        "lastName": "Siling",
+        "firstName": "Moutombi Michelle",
+        "email": "fboudouasel@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65747",
+        "lastName": "Silva",
+        "firstName": "Hidalgo Leonardo",
+        "email": "zboudoufte@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62723",
+        "lastName": "Simo",
+        "firstName": "Tchoupé Morgan",
+        "email": "pboudringhien@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61168",
+        "lastName": "Sitcha",
+        "firstName": "Happi Brinda",
+        "email": "abouffioux@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "65633",
+        "lastName": "Siyoun",
+        "firstName": "Maimouni Basma",
+        "email": "jbouffort@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63791",
+        "lastName": "Soares",
+        "firstName": "Martins Marta",
+        "email": "aiboufouara@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65145",
+        "lastName": "Soto",
+        "firstName": "Thomas Sasha",
+        "email": "aeboufourou@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64940",
+        "lastName": "Souleiman",
+        "firstName": "Ahmed Hodo",
+        "email": "mbougandouz@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "59337",
+        "lastName": "Springael",
+        "firstName": "Pereira Romane",
+        "email": "ibougtya@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65081",
+        "lastName": "Suarez",
+        "firstName": "Alcalde Clara",
+        "email": "zbouhammou@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65441",
+        "lastName": "Suarez",
+        "firstName": "Silva Sélèna",
+        "email": "abouhout@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "63376",
+        "lastName": "T'",
+        "firstName": "Jolle Elise",
+        "email": "mbouhout@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64383",
+        "lastName": "Tandja",
+        "firstName": "Wandji Lucrece",
+        "email": "aybouhout@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65477",
+        "lastName": "Tang",
+        "firstName": "Nieng Kaam",
+        "email": "abouhriz@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "66080",
+        "lastName": "Tariq",
+        "firstName": "Syed Awais",
+        "email": "ubouideghaghen@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "64004",
+        "lastName": "Tatete",
+        "firstName": "Onawongo Malyck",
+        "email": "ibouiech@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "58697",
+        "lastName": "Tchamba",
+        "firstName": "Lontsi Brice",
+        "email": "rbouillon@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66046",
+        "lastName": "Tejada",
+        "firstName": "Matthews David",
+        "email": "obouimezgane@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63109",
+        "lastName": "Temsamani",
+        "firstName": "Chebagouda Taha",
+        "email": "cboujida@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65478",
+        "lastName": "TemsamaniI",
+        "firstName": "M'Rabet Younes",
+        "email": "rboujida@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65882",
+        "lastName": "Tiwa",
+        "firstName": "Tsakou Priscille",
+        "email": "mboujnan@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65591",
+        "lastName": "Tonye",
+        "firstName": "Tonye Albert",
+        "email": "nboukhayare@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "61276",
+        "lastName": "Topbag",
+        "firstName": "Redzepi Jasmine",
+        "email": "lboukhizou@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65717",
+        "lastName": "Tran",
+        "firstName": "Van Vo",
+        "email": "iboukobba@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64944",
+        "lastName": "Tshibindi",
+        "firstName": "Kizito Caroline",
+        "email": "jboukria@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65458",
+        "lastName": "Tshingila",
+        "firstName": "Mbisiginala Déborah",
+        "email": "sboukria@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63888",
+        "lastName": "Tshumbi",
+        "firstName": "Muzela Martinez",
+        "email": "cboukricha@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62617",
+        "lastName": "Umutoni",
+        "firstName": "Nzeyimana Arriane",
+        "email": "aboulahmoum@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "62270",
+        "lastName": "Uyanik",
+        "firstName": "Pelin Cansu",
+        "email": "iboulahzazar@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "55917",
+        "lastName": "Van",
+        "firstName": "Belle Gaelle",
+        "email": "aboulehiane@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "62591",
+        "lastName": "Van",
+        "firstName": "Belle Kylie",
+        "email": "mboulenger@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "62302",
+        "lastName": "Van",
+        "firstName": "Bever Adam",
+        "email": "jboulghalgh@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "56573",
+        "lastName": "Van",
+        "firstName": "Butsel Elise",
+        "email": "hboulif@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65242",
+        "lastName": "Van",
+        "firstName": "Campenhoudt Hadrien",
+        "email": "mboulin@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "56719",
+        "lastName": "Van",
+        "firstName": "Cauwenberghe Lisa",
+        "email": "cbouly@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64420",
+        "lastName": "Van",
+        "firstName": "Cleynenbreugel Chloé",
+        "email": "aboumal@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "65789",
+        "lastName": "Van",
+        "firstName": "Dale Romain",
+        "email": "fboumazzoughe@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "65360",
+        "lastName": "Van",
+        "firstName": "Damme Florence",
+        "email": "yboumghait@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "58615",
+        "lastName": "Van",
+        "firstName": "Damme Manon",
+        "email": "aboumohcine@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "59061",
+        "lastName": "Van",
+        "firstName": "Doorselaere Kristell",
+        "email": "abouneffs@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63885",
+        "lastName": "Van",
+        "firstName": "Durme Chahed",
+        "email": "ibounja@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "61576",
+        "lastName": "Van",
+        "firstName": "Espen Line",
+        "email": "sbouobda@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "65893",
+        "lastName": "Van",
+        "firstName": "Hamme Logan",
+        "email": "mbourassa@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "62732",
+        "lastName": "Van",
+        "firstName": "Heirweghe Amandine",
+        "email": "cbourfiss@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "63483",
+        "lastName": "Van",
+        "firstName": "Houte Amandine",
+        "email": "zbourgaux@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66081",
+        "lastName": "Van",
+        "firstName": "Hulle Pierre",
+        "email": "lbourgeois@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "58906",
+        "lastName": "van",
+        "firstName": "Innis Grégory",
+        "email": "obourgeois@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "60291",
+        "lastName": "Van",
+        "firstName": "Laer Laura",
+        "email": "ebourguignon@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65011",
+        "lastName": "Van",
+        "firstName": "Laer Yolande",
+        "email": "mbourlard@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "65031",
+        "lastName": "Van",
+        "firstName": "Landeghem Lou",
+        "email": "eboursier@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63593",
+        "lastName": "Van",
+        "firstName": "Leer Sasha",
+        "email": "cbourtembourg@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "63652",
+        "lastName": "Van",
+        "firstName": "Lint Pierre-Antoine",
+        "email": "ibourzik@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "64676",
+        "lastName": "Van",
+        "firstName": "Malderen Natan",
+        "email": "ibousbila@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "60933",
+        "lastName": "Van",
+        "firstName": "Meenen Suzon",
+        "email": "abousiali@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65163",
+        "lastName": "Van",
+        "firstName": "Naemen Manoë",
+        "email": "sboussalaa@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "54587",
+        "lastName": "Van",
+        "firstName": "Nedervelde Sophie",
+        "email": "cboustta@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "60641",
+        "lastName": "Van",
+        "firstName": "Nérom Alexandre",
+        "email": "wboustta@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "60300",
+        "lastName": "Van",
+        "firstName": "Nieuwenborgh Aurélie",
+        "email": "rboutagrat@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "60353",
+        "lastName": "Van",
+        "firstName": "Overbeke Loumadia",
+        "email": "mboutahri@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "62236",
+        "lastName": "Van",
+        "firstName": "Passel Manon",
+        "email": "aboutarbouch@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "63724",
+        "lastName": "Van",
+        "firstName": "Peborgh Thibault",
+        "email": "sboutiyarzist@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "66132",
+        "lastName": "van",
+        "firstName": "Pelt Lucie",
+        "email": "nboutouil@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "64809",
+        "lastName": "Van",
+        "firstName": "Pevenage Hugo",
+        "email": "sboutouil@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "66244",
+        "lastName": "Van",
+        "firstName": "Pevenage Léa",
+        "email": "nboutsakourin@etu.he2b.be",
+        "campusId": 5
+    },
+    {
+        "matricule": "57295",
+        "lastName": "Van",
+        "firstName": "Pottelsberghe Anne-Sophie",
+        "email": "sboutsakourin@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64578",
+        "lastName": "Van",
+        "firstName": "Riet Mathieu",
+        "email": "mbouttique@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "63252",
+        "lastName": "Van",
+        "firstName": "Rillaer Paul",
+        "email": "lbouvry@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "59013",
+        "lastName": "Van",
+        "firstName": "Roosbroeck Clarisse",
+        "email": "jbouvy@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "62828",
+        "lastName": "Van",
+        "firstName": "Roost Bruno",
+        "email": "cbouvycoupery@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "61768",
+        "lastName": "Van",
+        "firstName": "Snick Gregory",
+        "email": "gbouxin@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "59136",
+        "lastName": "Van",
+        "firstName": "Snick Guillaume",
+        "email": "ibouyidou@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66014",
+        "lastName": "Van",
+        "firstName": "Steenberge Arthur",
+        "email": "abouzagou@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "56857",
+        "lastName": "Van",
+        "firstName": "Tongerloo Laura",
+        "email": "zbouzahzah@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "62330",
+        "lastName": "Van",
+        "firstName": "Uffel Adèle",
+        "email": "abouzalmat@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "60009",
+        "lastName": "Van",
+        "firstName": "Velthoven Brice",
+        "email": "nbouzian@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "56404",
+        "lastName": "Van",
+        "firstName": "Wymeersch Fabio",
+        "email": "abouziane@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "58278",
+        "lastName": "Vanden",
+        "firstName": "Bemden Raphaëlle",
+        "email": "ibouzid@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65067",
+        "lastName": "Vanden",
+        "firstName": "Bosch Sasha",
+        "email": "sbouzid@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61072",
+        "lastName": "Vanden",
+        "firstName": "Broeck Romain",
+        "email": "mbouzida@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65873",
+        "lastName": "Vanspauwen",
+        "firstName": "Santy Mathieu",
+        "email": "ibouzraa@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "59573",
+        "lastName": "Vasquez",
+        "firstName": "Coronado Lilian",
+        "email": "lbouzraa@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64778",
+        "lastName": "Vega",
+        "firstName": "Lopez Laëtitia",
+        "email": "sobouzyarsit@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65796",
+        "lastName": "Vilardell",
+        "firstName": "Navas Marina",
+        "email": "lbowtruczuk@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "63783",
+        "lastName": "Villamizar",
+        "firstName": "Narvaez Juan",
+        "email": "lboyadjian@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "66436",
+        "lastName": "Wandji",
+        "firstName": "Ketcheme Patricia",
+        "email": "tbozkurt@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "60248",
+        "lastName": "Wasamba",
+        "firstName": "Ibulu Jonathan",
+        "email": "dbozo@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "59145",
+        "lastName": "Wedje",
+        "firstName": "Kamkuimo Arnold",
+        "email": "ebracops@etu.he2b.be",
+        "campusId": 9
+    },
+    {
+        "matricule": "63521",
+        "lastName": "Weikl",
+        "firstName": "Marie Jennie",
+        "email": "mbracq@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "63233",
+        "lastName": "Wynants",
+        "firstName": "Dewet Clara",
+        "email": "sbraker@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "66413",
+        "lastName": "Yahyioui",
+        "firstName": "Margoum Ayat",
+        "email": "ibrancart@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "66218",
+        "lastName": "Yale",
+        "firstName": "Baluti Serena",
+        "email": "lbrancato@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61035",
+        "lastName": "Yoka",
+        "firstName": "Mpela Moise",
+        "email": "chbranchereau@etu.he2b.be",
+        "campusId": 6
+    },
+    {
+        "matricule": "65148",
+        "lastName": "Yoka",
+        "firstName": "Wasolua Elie",
+        "email": "lbrandao@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "65496",
+        "lastName": "Zaidi",
+        "firstName": "Arakraki Iman",
+        "email": "abrandelet@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "61935",
+        "lastName": "Zapata",
+        "firstName": "Navarrete Carmen",
+        "email": "nbrandt@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "63456",
+        "lastName": "Ze",
+        "firstName": "Lufua Rody",
+        "email": "cbrassart@etu.he2b.be",
+        "campusId": 10
+    },
+    {
+        "matricule": "64878",
+        "lastName": "Zekouf",
+        "firstName": "Bettioui Akram",
+        "email": "cbrasseur@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "65190",
+        "lastName": "Zemmouri",
+        "firstName": "Belkhrif Elias",
+        "email": "lbraun@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "62746",
+        "lastName": "Zerou",
+        "firstName": "Abd Allah",
+        "email": "tbreda@etu.he2b.be",
+        "campusId": 8
+    },
+    {
+        "matricule": "64766",
+        "lastName": "Zerrouki",
+        "firstName": "Hana Asma",
+        "email": "lbresler@etu.he2b.be",
+        "campusId": 2
+    },
+    {
+        "matricule": "65273",
+        "lastName": "Ziyani",
+        "firstName": "Taïbi Anas",
+        "email": "cbreyne@etu.he2b.be",
+        "campusId": 7
+    },
+    {
+        "matricule": "66376",
+        "lastName": "Znaidi",
+        "firstName": "Driouch Mohammed",
+        "email": "mbribosia@etu.he2b.be",
+        "campusId": 10
+    }
+]

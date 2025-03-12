@@ -1,0 +1,66 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+datasource db {
+  provider = "mysql"  // Ici, on indique que c'est une base MySQL
+  url      = env("DATABASE_URL")  // Utilise la variable d'environnement pour se connecter
+}
+
+generator client {
+  provider = "prisma-client-js"  // Utilise Prisma Client pour interagir avec la base de données
+}
+
+model Campus {
+  id       Int       @id @default(autoincrement())
+  name     String    @unique
+  users    User[]
+  students Student[] // Un campus peut avoir plusieurs étudiants
+
+  teacher Teacher[]
+}
+
+model Student {
+  id        Int     @id @default(autoincrement())
+  firstName String
+  lastName  String
+  matricule String  @unique
+  email     String  @unique
+  campusId  Int     // Clé étrangère pour le campus
+  campus    Campus  @relation(fields: [campusId], references: [id])
+}
+
+
+model User {
+  id        String  @id @default(uuid())
+  googleId  String  @unique
+  email     String  @unique
+  name      String?
+  campusId  Int?    // Clé étrangère pour le campus
+  campus    Campus? @relation(fields: [campusId], references: [id])
+  createdAt DateTime @default(now())
+}
+
+model Teacher {
+  id        Int         @id @default(autoincrement())
+  firstName String
+  lastName  String
+  email     String      @unique
+  campusId  Int         // Clé étrangère pour le campus
+  campus    Campus      @relation(fields: [campusId], references: [id])
+
+  // Ajoutez la relation avec la présence ici
+  presences Attendance[] // Un enseignant peut avoir plusieurs présences
+}
+
+model Attendance {
+  id        Int      @id @default(autoincrement())
+  teacherId Int
+  present   Boolean
+  timestamp DateTime @default(now()) // Date de la présence
+  teacher   Teacher @relation(fields: [teacherId], references: [id])
+
+  @@unique([teacherId, timestamp]) // Assure que la présence est unique par professeur et date
+}
