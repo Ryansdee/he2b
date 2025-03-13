@@ -18,7 +18,7 @@ const app = express();
 const fs = require("fs");
 
 const generateToken = (user) => {
-  return jwt.sign({ id: user.id }, process.env.JWT_SECRET, { expiresIn: "7d" });
+  return jwt.sign({ id: user.id, email: user.email }, process.env.JWT_SECRET, { expiresIn: "7d" });
 };
 
 
@@ -141,16 +141,50 @@ passport.use(
     async (accessToken, refreshToken, profile, done) => {
       console.log("Profil Google récupéré :", profile); // Debugging
 
-      let user = await prisma.user.findUnique({ where: { googleId: profile.id } });
+      const email = profile.emails[0].value;
+      const nameParts = profile.displayName.split(" ");
+      const firstName = nameParts[0] || "";
+      const lastName = nameParts.slice(1).join(" ") || "";
+      const matricule = email.split("@")[0]; // Récupérer la partie avant '@'
 
-      if (!user) {
-        user = await prisma.user.create({
-          data: {
-            googleId: profile.id,
-            email: profile.emails[0].value,
-            name: profile.displayName,
-          },
-        });
+      let user = null;
+
+      if (email.endsWith("@etu.he2b.be")) {
+        // 🔹 Vérifier si l'étudiant existe déjà
+        user = await prisma.student.findUnique({ where: { email } });
+
+        if (!user) {
+          // 🔹 Créer un nouvel étudiant si non existant
+          user = await prisma.student.create({
+            data: {
+              email,
+              firstName,
+              lastName,
+              matricule,
+              campus: {
+                connect: {
+                  id: campusId,  // Vous devez connecter l'étudiant à un campus existant par son `id`.
+                },
+              },
+            },
+          });
+        }          
+      } else if (email.endsWith("@he2b.be")) {
+        // 🔹 Vérifier si l'enseignant/staff existe déjà
+        user = await prisma.teacher.findUnique({ where: { email } });
+
+        if (!user) {
+          // 🔹 Créer un nouvel enseignant si non existant
+          user = await prisma.teacher.create({
+            data: {
+              email,
+              firstName,
+              lastName,
+            },
+          });
+        }
+      } else {
+        return done(null, false, { message: "Domaine email non autorisé." });
       }
 
       const token = generateToken(user);
@@ -160,6 +194,7 @@ passport.use(
     }
   )
 );
+
 
 passport.serializeUser((user, done) => {
   done(null, user);
@@ -199,17 +234,28 @@ app.get("/user", async (req, res) => {
 
     console.log("✅ Token valide, ID utilisateur :", decoded.id);
 
-    const user = await prisma.user.findUnique({ 
-      where: { id: decoded.id },
-      select: { id: true, googleId: true, email: true, name: true, campus: { select: { name: true } } }
+    const user = await prisma.student.findUnique({
+      where: { email: decoded.email }, 
+      select: { 
+        id: true, 
+        email: true, 
+        firstName: true, 
+        lastName: true,
+        campus: { select: { name: true } } 
+      }
     });
     
-
+    // Vérifier si l'utilisateur existe avant d'afficher l'email
+    if (user) {
+      console.log("Email récupéré :", user.email);
+    } else {
+      console.log("Aucun utilisateur trouvé avec cet email.");
+    }
     if (!user) {
       console.log("⛔ Utilisateur introuvable !");
       return res.status(404).json({ message: "Utilisateur introuvable" });
     }
-
+    console.log("✅ Campus trouvé :", user.campus );
     console.log("✅ Utilisateur trouvé :", user);
     return res.json(user);
   });
@@ -523,6 +569,89 @@ app.delete("/students/:id", async (req, res) => {
 app.post("/logout", (req, res) => {
   res.json({ message: "Déconnexion réussie" });
 });
+
+
+// 🔹 Créer une nouvelle news
+app.post("/news", async (req, res) => {
+  const { title, description, imageUrl, links, campusId } = req.body;
+
+  if (!title || !description || !campusId) {
+    return res.status(400).json({ message: "Données incomplètes" });
+  }
+
+  try {
+    const newNews = await prisma.news.create({
+      data: { title, description, imageUrl, links, campusId },
+    });
+    res.status(201).json(newNews);
+  } catch (error) {
+    console.error("⛔ Erreur lors de l'ajout :", error);
+    res.status(500).json({ message: "Erreur serveur" });
+  }
+});
+
+// 🔹 Récupérer toutes les news
+app.get("/news", async (req, res) => {
+  try {
+    const newsList = await prisma.news.findMany({
+      include: { campus: true }, // Inclut les infos du campus
+      orderBy: { createdAt: "desc" }, // Trier par date de création
+    });
+    res.json(newsList);
+  } catch (error) {
+    console.error("⛔ Erreur serveur :", error);
+    res.status(500).json({ message: "Erreur serveur" });
+  }
+});
+
+// 🔹 Récupérer les news d'un campus spécifique
+app.get("/news/campus/:campusId", async (req, res) => {
+  const { campusId } = req.params;
+
+  try {
+    const newsList = await prisma.news.findMany({
+      where: { campusId: parseInt(campusId) },
+      orderBy: { createdAt: "desc" },
+    });
+    res.json(newsList);
+  } catch (error) {
+    console.error("⛔ Erreur serveur :", error);
+    res.status(500).json({ message: "Erreur serveur" });
+  }
+});
+
+// 🔹 Modifier une news
+app.put("/news/:id", async (req, res) => {
+  const { id } = req.params;
+  const { title, description, imageUrl, links } = req.body;
+
+  try {
+    const updatedNews = await prisma.news.update({
+      where: { id: parseInt(id) },
+      data: { title, description, imageUrl, links, updatedAt: new Date() },
+    });
+    res.json(updatedNews);
+  } catch (error) {
+    console.error("⛔ Erreur lors de la mise à jour :", error);
+    res.status(500).json({ message: "Erreur serveur" });
+  }
+});
+
+// 🔹 Supprimer une news
+app.delete("/news/:id", async (req, res) => {
+  const { id } = req.params;
+
+  try {
+    await prisma.news.delete({
+      where: { id: parseInt(id) },
+    });
+    res.json({ message: "News supprimée avec succès" });
+  } catch (error) {
+    console.error("⛔ Erreur lors de la suppression :", error);
+    res.status(500).json({ message: "Erreur serveur" });
+  }
+});
+
 
 // 🔹 Démarrage du serveur
 app.listen(5000, () => console.log("✅ Serveur backend démarré sur http://localhost:5000"));

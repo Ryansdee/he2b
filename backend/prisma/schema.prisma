@@ -20,6 +20,8 @@ model Campus {
   students Student[] // Un campus peut avoir plusieurs étudiants
 
   teacher Teacher[]
+
+  News News[]
 }
 
 model Student {
@@ -63,4 +65,17 @@ model Attendance {
   teacher   Teacher @relation(fields: [teacherId], references: [id])
 
   @@unique([teacherId, timestamp]) // Assure que la présence est unique par professeur et date
+}
+
+
+model News {
+  id          Int      @id @default(autoincrement())
+  title       String
+  description String   @db.Text  // Utilisation de `Text` pour de longues descriptions
+  imageUrl    String?  // URL de l'image (facultatif)
+  links       String?  // Liens associés à la news (facultatif)
+  campusId    Int      // Clé étrangère pour lier la news à un campus
+  campus      Campus  @relation(fields: [campusId], references: [id])
+  createdAt   DateTime @default(now()) // Date de création
+  updatedAt   DateTime @updatedAt       // Date de dernière modification
 }

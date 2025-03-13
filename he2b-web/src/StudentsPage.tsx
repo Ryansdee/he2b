@@ -11,16 +11,16 @@ const StudentsPage: React.FC = () => {
     matricule: "",
     campus: "",
   });
-  const [searchTerm, setSearchTerm] = useState(""); // État pour la recherche
-  const [userEmail, setUserEmail] = useState<string | null>(null); // État pour l'email de l'utilisateur connecté
+  const [searchTerm, setSearchTerm] = useState(""); // Recherche par prénom, nom ou matricule
+  const [selectedCampus, setSelectedCampus] = useState(""); // Filtrer par campus
+  const [sortBy, setSortBy] = useState("name"); // Tri des étudiants (nom/matricule)
+  const [userEmail, setUserEmail] = useState<string | null>(null);
 
   const navigate = useNavigate();
 
-  // Simuler l'obtention de l'email de l'utilisateur connecté (par exemple, via un contexte ou un token)
   useEffect(() => {
     const getUserEmail = () => {
-      // Exemple d'email simulé, remplacez ceci par la récupération réelle de l'utilisateur connecté
-      const email = "exemple@etu.he2b.be"; // Remplacez par la méthode réelle pour obtenir l'email
+      const email = "64576@etu.he2b.be"; // Remplacer par la méthode réelle
       setUserEmail(email);
     };
 
@@ -29,7 +29,6 @@ const StudentsPage: React.FC = () => {
     fetchCampuses();
   }, []);
 
-  // Récupérer les étudiants
   const fetchStudents = async () => {
     try {
       const response = await axios.get("http://localhost:5000/students");
@@ -48,33 +47,22 @@ const StudentsPage: React.FC = () => {
     }
   };
 
-  // Ajouter un étudiant
   const handleAddStudent = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      console.log("Envoi de l'étudiant :", newStudent);
       const response = await axios.post("http://localhost:5000/students", {
         ...newStudent,
         campusId: newStudent.campus,
       });
-
-      console.log("Réponse de l'ajout étudiant :", response.data);
       await fetchStudents();
-      setNewStudent({
-        firstName: "",
-        lastName: "",
-        matricule: "",
-        campus: "",
-      });
+      setNewStudent({ firstName: "", lastName: "", matricule: "", campus: "" });
     } catch (error) {
       console.error("Erreur lors de l'ajout de l'étudiant", error);
     }
   };
 
-  // Supprimer un étudiant
   const handleDeleteStudent = async (id: number) => {
     try {
-      console.log("Suppression de l'étudiant avec l'ID :", id);
       await axios.delete(`http://localhost:5000/students/${id}`);
       setStudents(students.filter((student) => student.id !== id));
     } catch (error) {
@@ -82,16 +70,25 @@ const StudentsPage: React.FC = () => {
     }
   };
 
-  // Filtrer les étudiants en fonction du terme de recherche
-  const filteredStudents = students.filter(
-    (student) =>
-      student.firstName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      student.lastName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      student.matricule.includes(searchTerm)
-  );
+  // 🔹 Filtrage des étudiants
+  const filteredStudents = students
+  .filter((student) =>
+    student.firstName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    student.lastName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    student.matricule.includes(searchTerm)
+  )
+  .filter((student) => (selectedCampus ? student.campus.id === Number(selectedCampus) : true)) // ✅ Correction ici
+  .sort((a, b) => {
+    if (sortBy === "name") {
+      return a.lastName.localeCompare(b.lastName);
+    } else if (sortBy === "matricule") {
+      return a.matricule.localeCompare(b.matricule);
+    }
+    return 0;
+  });
 
-  // Vérifier si l'utilisateur est un étudiant
-  const isStudent = userEmail?.endsWith('@etu.he2b.be');
+
+  const isStudent = userEmail?.endsWith("@etu.he2b.be");
 
   return (
     <div className="container mt-4">
@@ -108,9 +105,7 @@ const StudentsPage: React.FC = () => {
                 className="form-control"
                 placeholder="Prénom"
                 value={newStudent.firstName}
-                onChange={(e) =>
-                  setNewStudent({ ...newStudent, firstName: e.target.value })
-                }
+                onChange={(e) => setNewStudent({ ...newStudent, firstName: e.target.value })}
                 required
               />
             </div>
@@ -120,9 +115,7 @@ const StudentsPage: React.FC = () => {
                 className="form-control"
                 placeholder="Nom"
                 value={newStudent.lastName}
-                onChange={(e) =>
-                  setNewStudent({ ...newStudent, lastName: e.target.value })
-                }
+                onChange={(e) => setNewStudent({ ...newStudent, lastName: e.target.value })}
                 required
               />
             </div>
@@ -132,9 +125,7 @@ const StudentsPage: React.FC = () => {
                 className="form-control"
                 placeholder="Matricule"
                 value={newStudent.matricule}
-                onChange={(e) =>
-                  setNewStudent({ ...newStudent, matricule: e.target.value })
-                }
+                onChange={(e) => setNewStudent({ ...newStudent, matricule: e.target.value })}
                 required
               />
             </div>
@@ -143,9 +134,7 @@ const StudentsPage: React.FC = () => {
             <select
               className="form-select"
               value={newStudent.campus}
-              onChange={(e) =>
-                setNewStudent({ ...newStudent, campus: e.target.value })
-              }
+              onChange={(e) => setNewStudent({ ...newStudent, campus: e.target.value })}
               required
             >
               <option value="">Sélectionner un campus</option>
@@ -162,8 +151,8 @@ const StudentsPage: React.FC = () => {
         </form>
       </div>
 
-      {/* Formulaire de recherche */}
-      <div className="mt-4">
+      {/* 🔹 Filtres */}
+      <div className="mt-4 d-flex gap-3">
         <input
           type="text"
           className="form-control"
@@ -171,6 +160,18 @@ const StudentsPage: React.FC = () => {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
+        <select className="form-select" value={selectedCampus} onChange={(e) => setSelectedCampus(e.target.value)}>
+          <option value="">Tous les campus</option>
+          {campuses.map((campus) => (
+            <option key={campus.id} value={campus.id}>
+              {campus.name}
+            </option>
+          ))}
+        </select>
+        <select className="form-select" value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
+          <option value="name">Trier par Nom</option>
+          <option value="matricule">Trier par Matricule</option>
+        </select>
       </div>
 
       {/* Liste des étudiants */}
@@ -199,22 +200,13 @@ const StudentsPage: React.FC = () => {
                   <td>
                     {!isStudent && (
                       <>
-                        <button
-                          className="btn btn-danger btn-sm me-2"
-                          onClick={() => handleDeleteStudent(student.id)}
-                        >
+                        <button className="btn btn-danger btn-sm me-2" onClick={() => handleDeleteStudent(student.id)}>
                           Supprimer
                         </button>
-                        <button
-                          className="btn btn-warning btn-sm"
-                          onClick={() => navigate(`/students/edit/${student.id}`)}
-                        >
+                        <button className="btn btn-warning btn-sm" onClick={() => navigate(`/students/edit/${student.id}`)}>
                           Modifier
                         </button>
                       </>
-                    )}
-                    {isStudent && (
-                      <span className="text-muted">Modification/Déletion désactivée</span>
                     )}
                   </td>
                 </tr>

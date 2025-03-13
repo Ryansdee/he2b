@@ -8,7 +8,7 @@ const HomePage: React.FC<{ user: any }> = ({ user }) => {
     <div className="container mt-5">
       <div className="card">
         <div className="card-header bg-primary text-white">
-          <h1>Bienvenue, {user?.name}!</h1>
+          <h1>Bienvenue, {user?.firstName} !</h1>
         </div>
         <div className="card-body">
           <p><strong>Email:</strong> {user?.email}</p>
