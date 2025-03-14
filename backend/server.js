@@ -148,12 +148,20 @@ passport.use(
       const matricule = email.split("@")[0]; // Récupérer la partie avant '@'
 
       let user = null;
+      let campusId = null; // Déclare la variable campusId
 
       if (email.endsWith("@etu.he2b.be")) {
         // 🔹 Vérifier si l'étudiant existe déjà
         user = await prisma.student.findUnique({ where: { email } });
 
         if (!user) {
+          // 🔹 Récupérer ou définir le campusId (peut-être depuis un autre service ou une autre logique)
+          campusId = 1; // Exemple, remplace-le par la logique pour récupérer un campusId valide
+
+          if (!campusId) {
+            return done(null, false, { message: "Campus ID est requis" });
+          }
+
           // 🔹 Créer un nouvel étudiant si non existant
           user = await prisma.student.create({
             data: {
@@ -162,9 +170,7 @@ passport.use(
               lastName,
               matricule,
               campus: {
-                connect: {
-                  id: campusId,  // Vous devez connecter l'étudiant à un campus existant par son `id`.
-                },
+                connect: { id: campusId }, // Associe l'étudiant au campus par son ID
               },
             },
           });
@@ -194,6 +200,7 @@ passport.use(
     }
   )
 );
+
 
 
 passport.serializeUser((user, done) => {
@@ -295,57 +302,6 @@ app.get('/teachers/email/:email', async (req, res) => {
   }
 });
 
-// Exemple de code dans votre route /attendance sur le serveur backend
-
-app.post('/attendance', async (req, res) => {
-  const { teacherId, presence } = req.body;
-
-  // Vérifier les données reçues
-  console.log("Données reçues : ", { teacherId, presence });
-
-  if (!teacherId || typeof presence === 'undefined') {
-    return res.status(400).json({ error: "Teacher ID and presence are required" });
-  }
-
-  try {
-    const existingAttendance = await prisma.attendance.findUnique({
-      where: {
-        teacherId_timestamp: {
-          teacherId,
-          timestamp: new Date().toISOString().split('T')[0], // Date actuelle
-        },
-      },
-    });
-
-    console.log("Présence existante trouvée : ", existingAttendance);
-
-    if (existingAttendance) {
-      // Si une présence existe déjà, la mettre à jour
-      const updatedAttendance = await prisma.attendance.update({
-        where: { id: existingAttendance.id },
-        data: { present: presence },
-      });
-      console.log("Présence mise à jour : ", updatedAttendance);
-      res.status(200).json(updatedAttendance);
-    } else {
-      // Si aucune présence n'existe, créer une nouvelle entrée
-      const newAttendance = await prisma.attendance.create({
-        data: {
-          teacherId,
-          present: presence,
-        },
-      });
-      console.log("Nouvelle présence créée : ", newAttendance);
-      res.status(201).json(newAttendance);
-    }
-  } catch (error) {
-    console.error("Erreur lors de la mise à jour de la présence:", error);
-    res.status(500).json({ error: "Erreur serveur" });
-  }
-});
-
-
-
 // 🔹 Ajouter un enseignant
 app.post("/teachers", async (req, res) => {
   const { firstName, lastName, campusId } = req.body;
@@ -365,6 +321,131 @@ app.post("/teachers", async (req, res) => {
     res.status(201).json(newTeacher);
   } catch (error) {
     console.error("⛔ Erreur lors de l'ajout :", error);
+    res.status(500).json({ message: "Erreur serveur" });
+  }
+});
+
+app.patch('/teachers/:id/presence', async (req, res) => {
+  const { id } = req.params;
+  const { isPresent } = req.body;
+
+  try {
+    // Trouver l'enseignant par ID et mettre à jour sa présence
+    const teacher = await prisma.teacher.update({
+      where: { id: parseInt(id) },
+      data: { presence: isPresent },
+    });
+
+    res.status(200).json(teacher);
+  } catch (error) {
+    console.error("Erreur de mise à jour de la présence:", error);
+    res.status(404).json({ message: "Enseignant non trouvé" });
+  }
+});
+
+
+app.patch('/teachers/:id/tags', async (req, res) => {
+  const teacherId = req.params.id;
+  const tags = req.body.tags; // Vous devez envoyer un tableau de tags dans la requête
+
+  // Vérification si le tableau de tags existe et est un tableau valide
+  if (!Array.isArray(tags)) {
+    return res.status(400).json({ message: "Les tags doivent être un tableau." });
+  }
+
+  try {
+    console.log(`Mise à jour des tags pour l'enseignant avec ID: ${teacherId}`);
+
+    // Joindre les tags dans une seule chaîne de caractères, séparée par une virgule
+    const tagsString = tags.join(', '); // Vous pouvez choisir un autre séparateur si nécessaire
+
+    // Mise à jour du champ TAG de l'enseignant
+    const updatedTeacher = await prisma.teacher.update({
+      where: { id: parseInt(teacherId) },
+      data: {
+        TAG: tagsString, // Mise à jour du champ TAG avec la chaîne de tags
+      },
+    });
+
+    console.log("Enseignant mis à jour:", updatedTeacher);
+    res.status(200).json(updatedTeacher);
+  } catch (error) {
+    console.error("Erreur lors de la mise à jour des tags :", error);
+    res.status(500).json({ message: "Erreur serveur" });
+  }
+});
+
+
+app.post("/teachers/:id/tags", async (req, res) => {
+  const { id } = req.params;
+  const { tagName } = req.body;
+
+  if (!tagName) {
+    return res.status(400).json({ message: "Le nom du tag est requis" });
+  }
+
+  try {
+    // Vérifiez si le tag existe déjà ou créez-le
+    const tag = await prisma.tag.upsert({
+      where: { name: tagName },
+      update: {},
+      create: { name: tagName },
+    });
+
+    // Ajoutez ce tag à l'enseignant
+    const teacher = await prisma.teacher.update({
+      where: { id: parseInt(id) },
+      data: {
+        tags: {
+          connect: { id: tag.id }, // Associer le tag à l'enseignant
+        },
+      },
+    });
+
+    res.json(teacher);
+  } catch (error) {
+    console.error("⛔ Erreur lors de l'ajout du tag :", error);
+    res.status(500).json({ message: "Erreur serveur" });
+  }
+});
+
+app.get('/tags', (req, res) => {
+  const tags = ['Tag1', 'Tag2', 'Tag3']; // Example data
+  res.json(tags);
+});
+
+// Supprimer un tag d'un enseignant
+app.delete("/teachers/:id/tags", async (req, res) => {
+  const { id } = req.params;
+  const { tagName } = req.body;
+
+  if (!tagName) {
+    return res.status(400).json({ message: "Le nom du tag est requis" });
+  }
+
+  try {
+    // Trouver le tag par son nom
+    const tag = await prisma.tag.findUnique({
+      where: { name: tagName },
+    });
+
+    if (!tag) {
+      return res.status(404).json({ message: "Tag non trouvé" });
+    }
+
+    // Supprimer la relation entre l'enseignant et le tag
+    const teacher = await prisma.teacher.update({
+      where: { id: parseInt(id) },
+      data: {
+        tags: {
+          disconnect: { id: tag.id },
+        },
+      },
+    });
+
+    res.json(teacher);
+  } catch (error) {
+    console.error("⛔ Erreur lors de la suppression du tag :", error);
     res.status(500).json({ message: "Erreur serveur" });
   }
 });
@@ -572,23 +653,40 @@ app.post("/logout", (req, res) => {
 
 
 // 🔹 Créer une nouvelle news
+// 🔹 Créer une nouvelle news et l'associer à tous les campus
 app.post("/news", async (req, res) => {
-  const { title, description, imageUrl, links, campusId } = req.body;
+  const { title, description, imageUrl, links } = req.body;
 
-  if (!title || !description || !campusId) {
+  if (!title || !description) {
     return res.status(400).json({ message: "Données incomplètes" });
   }
 
   try {
-    const newNews = await prisma.news.create({
-      data: { title, description, imageUrl, links, campusId },
-    });
-    res.status(201).json(newNews);
+    // Récupérer tous les campus
+    const campuses = await prisma.campus.findMany();
+
+    // Créer une news pour chaque campus
+    const newsList = await Promise.all(
+      campuses.map((campus) => {
+        return prisma.news.create({
+          data: {
+            title,
+            description,
+            imageUrl,
+            links,
+            campusId: campus.id,
+          },
+        });
+      })
+    );
+
+    res.status(201).json(newsList);
   } catch (error) {
     console.error("⛔ Erreur lors de l'ajout :", error);
     res.status(500).json({ message: "Erreur serveur" });
   }
 });
+
 
 // 🔹 Récupérer toutes les news
 app.get("/news", async (req, res) => {
@@ -638,19 +736,30 @@ app.put("/news/:id", async (req, res) => {
 });
 
 // 🔹 Supprimer une news
-app.delete("/news/:id", async (req, res) => {
-  const { id } = req.params;
+app.delete('/news/title/:title', async (req, res) => {
+  const { title } = req.params;
+  console.log(`Suppression des news avec le titre : ${title}`);
 
   try {
-    await prisma.news.delete({
-      where: { id: parseInt(id) },
+    // Utilisation de Prisma pour supprimer les news avec le même titre
+    const result = await prisma.news.deleteMany({
+      where: {
+        title: title, // Condition pour trouver toutes les news avec ce titre
+      },
     });
-    res.json({ message: "News supprimée avec succès" });
+
+    if (result.count > 0) {
+      res.status(200).send('News supprimées avec succès');
+    } else {
+      res.status(404).send('Aucune news trouvée avec ce titre');
+    }
   } catch (error) {
-    console.error("⛔ Erreur lors de la suppression :", error);
-    res.status(500).json({ message: "Erreur serveur" });
+    console.error('Erreur lors de la suppression des news', error);
+    res.status(500).send('Erreur lors de la suppression des news');
   }
 });
+
+
 
 
 // 🔹 Démarrage du serveur

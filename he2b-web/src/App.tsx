@@ -6,8 +6,10 @@ import HomePage from "./HomePage";
 import LoginPage from "./LoginPage";
 import StudentsPage from "./StudentsPage";
 import TeacherPage from "./TeacherPage";
-import ImportPage from "./ImportPage";  // Add this import
-import PrivateRoute from "./PrivateRoute"; // Import du composant PrivateRoute
+import ImportPage from "./ImportPage";
+import PrivateRoute from "./PrivateRoute";
+import NewsPage from "./NewsPage";
+
 
 const App = () => {
   const [user, setUser] = useState<any>(null);
@@ -76,53 +78,67 @@ const App = () => {
     <div className="App">
       {/* Navbar Bootstrap */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className="container">
-          <Link to="/" className="navbar-brand fw-bold">HE2B App</Link>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
+  <div className="container">
+    <Link to="/" className="navbar-brand fw-bold">
+      <img src="https://upload.wikimedia.org/wikipedia/fr/c/c8/He2b.svg" alt="" width="60" />
+    </Link>
+    <button
+      className="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarNav">
+      <ul className="navbar-nav ms-auto">
+        <li className="nav-item">
+          <Link to="/home" className="nav-link text-white">Accueil</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/profile" className="nav-link text-white">Profile</Link>
+        </li>
+        {isAuthenticated && user?.email?.endsWith("@he2b.be") && (
+        <li className="nav-item">
+          <Link to="/import" className="nav-link text-white">Import</Link>
+        </li>
+        )}
+        {isAuthenticated && user?.email?.endsWith("@etu.he2b.be") && (
+          <li className="nav-item">
+            <Link to="/students" className="nav-link text-white">Students</Link>
+          </li>
+        )}
+        {isAuthenticated && user?.email?.endsWith("@he2b.be") && (
+        <li className="nav-item">
+          <Link to="/teachers" className="nav-link text-white">Teachers</Link>
+        </li>
+        )}
+        {isAuthenticated && user?.email?.endsWith("ce@he2b.be") && (
+        <li className="nav-item">
+          <Link to="/news" className="nav-link text-white">News</Link>
+        </li>
+        )}
+      </ul>
+
+      {/* Bouton de connexion/déconnexion à droite */}
+      <div className="d-flex ms-auto">
+        {!isAuthenticated ? (
+          <button onClick={handleGoogleLogin} className="btn btn-primary me-2">
+            <i className="fa-brands fa-google"></i> Se connecter
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <Link to="/home" className="nav-link text-white">Accueil</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/profile" className="nav-link text-white">Profile</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/students" className="nav-link text-white">Students</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/teachers" className="nav-link text-white">Teachers</Link>
-              </li>
-              <li className="nav-item">
-              <Link to="/import" className="nav-link text-white"></Link> {/* Add this link */}
-            </li>
-              <li>
-                <div className="d-flex">
-                  {!isAuthenticated ? (
-                    <button onClick={handleGoogleLogin} className="btn btn-primary me-2">
-                      <i className="fa-brands fa-google"></i> Se connecter
-                    </button>
-                  ) : (
-                    <button onClick={handleLogout} className="btn btn-danger">
-                      <i className="fa-solid fa-power-off"></i> Déconnexion
-                    </button>
-                  )}
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+        ) : (
+          <button onClick={handleLogout} className="btn btn-danger">
+            <i className="fa-solid fa-power-off"></i> Déconnexion
+          </button>
+        )}
+      </div>
+    </div>
+  </div>
+</nav>
+
 
       {/* Condition pour afficher l'image et le texte uniquement si l'utilisateur n'est pas connecté */}
       {!isAuthenticated && (
@@ -196,6 +212,7 @@ const App = () => {
           }
         />
         <Route path="/import" element={<ImportPage />} />
+        <Route path="/news" element={<NewsPage />} />
         <Route path="/" element={isAuthenticated ? <HomePage user={user} /> : <LoginPage />} />
       </Routes>
     </div>

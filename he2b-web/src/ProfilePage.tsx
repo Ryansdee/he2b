@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 interface ProfilePageProps {
   user: any;
@@ -6,8 +6,16 @@ interface ProfilePageProps {
 
 const ProfilePage: React.FC<ProfilePageProps> = ({ user }) => {
   const [isEditing, setIsEditing] = useState(false);
-  const [firstName, setFirstName] = useState(user?.name.split(' ')[0]);
-  const [lastName, setLastName] = useState(user?.name.split(' ')[1]);
+  const [firstName, setFirstName] = useState<string>('');
+  const [lastName, setLastName] = useState<string>('');
+
+  useEffect(() => {
+    if (user?.name) {
+      const [first, last] = user.name.split(' ');
+      setFirstName(first);
+      setLastName(last);
+    }
+  }, [user]);
 
   // Fonction pour envoyer les modifications au backend
   const handleSaveChanges = async () => {
@@ -57,7 +65,7 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ user }) => {
                   id="firstName"
                   type="text"
                   className="form-control"
-                  value={firstName}
+                  value={user.firstName}
                   onChange={(e) => setFirstName(e.target.value)}
                   placeholder="Prénom"
                 />
@@ -70,7 +78,7 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ user }) => {
                   id="lastName"
                   type="text"
                   className="form-control"
-                  value={lastName}
+                  value={user.lastName}
                   onChange={(e) => setLastName(e.target.value)}
                   placeholder="Nom"
                 />
@@ -87,8 +95,8 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ user }) => {
             </div>
           ) : (
             <div>
-              <p><strong>Prénom:</strong> {firstName}</p>
-              <p><strong>Nom:</strong> {lastName}</p>
+              <p><strong>Prénom:</strong> {user.firstName}</p>
+              <p><strong>Nom:</strong> {user.lastName}</p>
               <button
                 onClick={() => setIsEditing(true)}
                 className="btn btn-warning">

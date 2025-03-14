@@ -7,6 +7,7 @@ interface Teacher {
   lastName: string;
   email: string;
   campusId: number;
+  presence?: boolean;
 }
 
 interface Campus {
@@ -17,20 +18,19 @@ interface Campus {
 const TeacherPage: React.FC = () => {
   const [teachers, setTeachers] = useState<Teacher[]>([]);
   const [campuses, setCampuses] = useState<Campus[]>([]);
-  const [email, setEmail] = useState("");  // Email de l'utilisateur connecté
-  const [teacherId, setTeacherId] = useState<number | null>(null); // ID du professeur sélectionné
-  const [isPresent, setIsPresent] = useState<boolean | null>(null); // Statut de présence, null signifie non sélectionné
+  const [email, setEmail] = useState("");
+  const [teacherId, setTeacherId] = useState<number | null>(null);
+  const [isPresent, setIsPresent] = useState<boolean | null>(null);
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [campusId, setCampusId] = useState("");
-  const [isEmailValid, setIsEmailValid] = useState(false); // Indicateur si l'email est valide
+  const [isEmailValid, setIsEmailValid] = useState(false);
 
   useEffect(() => {
     fetchTeachers();
     fetchCampuses();
   }, []);
 
-  // 🔹 Charger les enseignants
   const fetchTeachers = async () => {
     try {
       const response = await axios.get("http://localhost:5000/teachers");
@@ -41,7 +41,6 @@ const TeacherPage: React.FC = () => {
     }
   };
 
-  // 🔹 Charger les campus
   const fetchCampuses = async () => {
     try {
       const response = await axios.get("http://localhost:5000/campuses");
@@ -52,34 +51,37 @@ const TeacherPage: React.FC = () => {
     }
   };
 
-  // 🔹 Trouver le nom du campus correspondant à l'ID
   const getCampusName = (id: number) => {
     const campus = campuses.find((c) => c.id === id);
     return campus ? campus.name : "Inconnu";
   };
 
-  // 🔹 Vérification de l'email de l'utilisateur connecté
   const handleEmailChange = (emailInput: string) => {
     setEmail(emailInput);
 
-    // Vérifier si l'email appartient au domaine @he2b.be
     if (emailInput.includes("@he2b.be")) {
-      const [userName] = emailInput.split("@"); // Extraire la partie avant le '@'
-      const [first, last] = userName.split("."); // Supposons que le format soit "prenom.nom"
+      const [userName] = emailInput.split("@");
+      const [first, last] = userName.split(".");
 
-      // Mettre à jour les informations du professeur
       setFirstName(first || "Inconnu");
       setLastName(last || "Inconnu");
-      setIsEmailValid(true);  // Valider l'email
+      setIsEmailValid(true);
     } else {
       setIsEmailValid(false);
     }
   };
 
-  // 🔹 Ajouter un professeur
   const handleAddTeacher = async () => {
+    if (!firstName || !lastName || !campusId) {
+      alert("Veuillez remplir tous les champs !");
+      return;
+    }
     try {
-      await axios.post("http://localhost:5000/teachers", { firstName, lastName, campusId: parseInt(campusId) });
+      await axios.post("http://localhost:5000/teachers", {
+        firstName,
+        lastName,
+        campusId: parseInt(campusId),
+      });
       fetchTeachers();
       setFirstName("");
       setLastName("");
@@ -89,7 +91,6 @@ const TeacherPage: React.FC = () => {
     }
   };
 
-  // 🔹 Supprimer un professeur
   const handleDeleteTeacher = async (id: number) => {
     try {
       await axios.delete(`http://localhost:5000/teachers/${id}`);
@@ -98,133 +99,44 @@ const TeacherPage: React.FC = () => {
       console.error("Erreur de suppression :", error);
     }
   };
+const handleModifyPresence = async (teacherId: number, newPresence: boolean) => {
+  console.log(`🔄 Tentative de modification de la présence de ${teacherId} à ${newPresence}`);
 
-  const updatePresenceInDatabase = async (teacherId, presence) => {
-    try {
-      // Vérifier si la présence est déjà enregistrée pour ce professeur et ce jour
-      const existingAttendance = await prisma.attendance.findUnique({
-        where: {
-          teacherId_timestamp: {
-            teacherId,
-            timestamp: new Date().toISOString().split('T')[0], // Utiliser la date actuelle
-          },
-        },
-      });
-  
-      if (existingAttendance) {
-        // Si une présence existe déjà, la mettre à jour
-        return await prisma.attendance.update({
-          where: { id: existingAttendance.id },
-          data: { present: presence },
-        });
-      } else {
-        // Si aucune présence n'existe, créer une nouvelle entrée
-        return await prisma.attendance.create({
-          data: {
-            teacherId,
-            present: presence,
-          },
-        });
-      }
-    } catch (error) {
-      console.error("Erreur lors de la mise à jour de la présence:", error);
-      throw new Error("Erreur lors de la mise à jour de la présence");
-    }
-  };
-
-
-  // 🔹 Sélectionner un professeur
-  const handleTeacherSelect = (id: number) => {
-    setTeacherId(id); // Définit l'ID du professeur sélectionné
-    setIsPresent(null); // Réinitialise le statut de présence à "non sélectionné"
-  };
-
-  const handlePresenceChange = async (status: boolean) => {
-    if (teacherId !== null) {
-      console.log("Envoi de la présence : ", teacherId, status); // Vérifiez les valeurs avant l'envoi
-      try {
-        const response = await axios.post("http://localhost:5000/attendance", {
-          teacherId,
-          presence: status,
-        });
-        console.log("Réponse de l'API : ", response.data); // Log la réponse de l'API
-        setIsPresent(status);  // Mettre à jour l'état de la présence
-      } catch (error) {
-        console.error("Erreur lors de la mise à jour de la présence:", error);
-      }
-    }
-  };  
-  
-  // Exemple de fonction handleModifyPresence
-const handleModifyPresence = async (teacherId: number, presence: boolean) => {
   try {
-    const response = await axios.post("http://localhost:5000/attendance", {
-      teacherId,
-      presence,
+    const response = await axios.patch(`http://localhost:5000/teachers/${teacherId}/presence`, {
+      isPresent: newPresence, // Vérifie bien que la clé correspond à celle du serveur
     });
-    console.log("Présence mise à jour avec succès", response.data);
-    setIsPresent(presence); // Mettre à jour l'état de la présence
+
+    console.log("✅ Réponse serveur :", response.data);
+
+    setTeachers((prevTeachers) =>
+      prevTeachers.map((teacher) =>
+        teacher.id === teacherId ? { ...teacher, presence: newPresence } : teacher
+      )
+    );
+
+    if (teacherId === teacherId) {
+      setIsPresent(newPresence);
+    }
+
   } catch (error) {
-    console.error("Erreur lors de la mise à jour de la présence:", error);
+    console.error("❌ Erreur lors de la mise à jour de la présence:", error);
   }
 };
-
-
 
   return (
     <div className="container mt-5">
       <h1 className="text-center mb-4">📚 Liste des Professeurs</h1>
 
-      {/* 🔹 Formulaire de connexion */}
-      <div className="card p-4 mb-4 shadow">
-        <h4>Connexion (Entrer votre email)</h4>
-        <div className="row g-3">
-          <div className="col-md-8">
-            <input
-              type="email"
-              className="form-control"
-              placeholder="Votre email"
-              value={email}
-              onChange={(e) => handleEmailChange(e.target.value)}
-            />
-          </div>
-          <div className="col-md-4">
-            {isEmailValid ? (
-              <button className="btn btn-primary" onClick={() => console.log("Professeur connecté")}>
-                Se connecter
-              </button>
-            ) : (
-              <button className="btn btn-secondary" disabled>
-                Email invalide
-              </button>
-            )}
-          </div>
-        </div>
-      </div>
-
-      {/* 🔹 Afficher les informations du professeur si l'email est valide */}
+      {/* 🔹 Informations du professeur connecté */}
       {isEmailValid && (
         <div className="card p-4 mb-4 shadow">
           <h4>Bienvenue, {firstName} {lastName}</h4>
           <div className="text-center">
-          <button
-              className="btn btn-warning mt-2"
-              onClick={() => handleModifyPresence(teacherId, isPresent === null ? true : !isPresent)} // Passez teacherId et l'état de présence
-              disabled={isPresent === null} // Désactive si aucun statut de présence n'est défini
-            >
-              Modifier la présence
-            </button>
-            <button
-              className="btn btn-danger"
-              onClick={() => handlePresenceChange(false)}
-              disabled={isPresent !== null} // Désactive les boutons si un statut de présence est déjà sélectionné
-            >
-              Marquer comme absent
-            </button>
             <button
               className="btn btn-warning mt-2"
-              onClick={handleModifyPresence}
-              disabled={isPresent === null} // Désactive si aucun statut de présence n'est défini
+              onClick={() => teacherId && handleModifyPresence(teacherId, !isPresent)}
+              disabled={teacherId === null}
             >
               Modifier la présence
             </button>
@@ -301,22 +213,13 @@ const handleModifyPresence = async (teacherId: number, presence: boolean) => {
                 <td>{teacher.email}</td>
                 <td>{getCampusName(teacher.campusId)}</td>
                 <td>
-                  <button
-                    className="btn btn-success btn-sm"
-                    onClick={() => handleTeacherSelect(teacher.id)} // Sélectionne le professeur
-                  >
-                    Sélectionner pour présence
-                  </button>
-                  <button className="btn btn-danger btn-sm" onClick={() => handleDeleteTeacher(teacher.id)}>
-                    🗑 Supprimer
-                  </button>
+                  <button className="btn btn-success btn-sm" onClick={() => handleModifyPresence(teacher.id, true)}>✅ Présent</button>
+                  <button className="btn btn-danger btn-sm ms-2" onClick={() => handleModifyPresence(teacher.id, false)}>❌ Absent</button>
                 </td>
               </tr>
             ))
           ) : (
-            <tr>
-              <td colSpan={4} className="text-center">Aucun professeur trouvé.</td>
-            </tr>
+            <tr><td colSpan={4} className="text-center">Aucun professeur trouvé.</td></tr>
           )}
         </tbody>
       </table>

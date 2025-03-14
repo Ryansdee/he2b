@@ -16,6 +16,10 @@ const StudentsPage: React.FC = () => {
   const [sortBy, setSortBy] = useState("name"); // Tri des étudiants (nom/matricule)
   const [userEmail, setUserEmail] = useState<string | null>(null);
 
+  // Pagination
+  const [currentPage, setCurrentPage] = useState(1); // Page actuelle
+  const [studentsPerPage] = useState(25); // Nombre d'étudiants par page
+
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -72,21 +76,27 @@ const StudentsPage: React.FC = () => {
 
   // 🔹 Filtrage des étudiants
   const filteredStudents = students
-  .filter((student) =>
-    student.firstName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    student.lastName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    student.matricule.includes(searchTerm)
-  )
-  .filter((student) => (selectedCampus ? student.campus.id === Number(selectedCampus) : true)) // ✅ Correction ici
-  .sort((a, b) => {
-    if (sortBy === "name") {
-      return a.lastName.localeCompare(b.lastName);
-    } else if (sortBy === "matricule") {
-      return a.matricule.localeCompare(b.matricule);
-    }
-    return 0;
-  });
+    .filter((student) =>
+      student.firstName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      student.lastName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      student.matricule.includes(searchTerm)
+    )
+    .filter((student) => (selectedCampus ? student.campus.id === Number(selectedCampus) : true)) // ✅ Correction ici
+    .sort((a, b) => {
+      if (sortBy === "name") {
+        return a.lastName.localeCompare(b.lastName);
+      } else if (sortBy === "matricule") {
+        return a.matricule.localeCompare(b.matricule);
+      }
+      return 0;
+    });
 
+  // Pagination
+  const indexOfLastStudent = currentPage * studentsPerPage;
+  const indexOfFirstStudent = indexOfLastStudent - studentsPerPage;
+  const currentStudents = filteredStudents.slice(indexOfFirstStudent, indexOfLastStudent);
+
+  const totalPages = Math.ceil(filteredStudents.length / studentsPerPage);
 
   const isStudent = userEmail?.endsWith("@etu.he2b.be");
 
@@ -187,24 +197,21 @@ const StudentsPage: React.FC = () => {
                 <th>Matricule</th>
                 <th>Email</th>
                 <th>Campus</th>
-                <th>Actions</th>
+                {!isStudent && <th>Actions</th>}
               </tr>
             </thead>
             <tbody>
-              {filteredStudents.map((student) => (
+              {currentStudents.map((student) => (
                 <tr key={student.id}>
                   <td>{student.firstName} {student.lastName}</td>
                   <td>{student.matricule}</td>
                   <td>{student.email}</td>
                   <td>{student.campus.name}</td>
                   <td>
-                    {!isStudent && (
-                      <>
+                    {!isStudent && ( 
+                      <> 
                         <button className="btn btn-danger btn-sm me-2" onClick={() => handleDeleteStudent(student.id)}>
                           Supprimer
-                        </button>
-                        <button className="btn btn-warning btn-sm" onClick={() => navigate(`/students/edit/${student.id}`)}>
-                          Modifier
                         </button>
                       </>
                     )}
@@ -214,6 +221,28 @@ const StudentsPage: React.FC = () => {
             </tbody>
           </table>
         )}
+      </div>
+      
+      <span className="badge bg-secondary align-self-center">
+          Page {currentPage} / {totalPages}
+        </span>
+
+      {/* Pagination */}
+      <div className="d-flex justify-content-center mt-3">
+        <button
+          className="btn btn-secondary me-2"
+          onClick={() => setCurrentPage(currentPage - 1)}
+          disabled={currentPage === 1}
+        >
+          Précédent
+        </button>
+        <button
+          className="btn btn-secondary"
+          onClick={() => setCurrentPage(currentPage + 1)}
+          disabled={currentPage === totalPages}
+        >
+          Suivant
+        </button>
       </div>
     </div>
   );

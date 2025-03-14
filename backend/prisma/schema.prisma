@@ -46,15 +46,24 @@ model User {
 }
 
 model Teacher {
-  id        Int         @id @default(autoincrement())
+  id        Int      @id @default(autoincrement())
   firstName String
   lastName  String
-  email     String      @unique
-  campusId  Int         // Clé étrangère pour le campus
-  campus    Campus      @relation(fields: [campusId], references: [id])
+  email     String   @unique
+  campusId  Int
+  campus    Campus  @relation(fields: [campusId], references: [id])
+  tags      String
+  presence  Boolean
+  Tag Tag[] @relation("TeacherTags")
 
-  // Ajoutez la relation avec la présence ici
-  presences Attendance[] // Un enseignant peut avoir plusieurs présences
+  Attendance Attendance[]
+}
+
+
+model Tag {
+  id     Int      @id @default(autoincrement())
+  name   String   @unique
+  teachers Teacher[] @relation("TeacherTags")
 }
 
 model Attendance {
